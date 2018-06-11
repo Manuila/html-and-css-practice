@@ -1,1 +1,1 @@
-# JavaScript course
+# html-and-css-practice
