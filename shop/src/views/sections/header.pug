@@ -19,4 +19,25 @@ header.header
                         li.header__top__nav__item
                             a.header__top__nav__item__link(href="#")
                                 i.fa.fa-search.fa-rotate-90(aria-hidden='true')
-    
+    .container
+        .header__bottom
+            .header__bottom__logo.logo
+                a.logo__link(href='#')
+                    img.logo__img(src='images/logo.png' alt='logo')
+            nav.header__bottom__nav.nav
+                - var items = ['new', 'designers', 'women', 'men', 'clearence']
+                    each item in items
+                        a.nav__link(href="#")=item
+            .header__bottom__shopping
+                select.shopping__cart
+                    option(disabled selected hidden) Your cart
+                    option Master cart
+                    option Maestro
+                .shopping__bag
+                    span.shopping__bag__left
+                        i.fa.fa-shopping-bag(aria-hidden="true")
+                    span.shopping__bag__right 0 Items
+                        span.shopping__bag__right__separatop $ 0
+                
+                
+                
