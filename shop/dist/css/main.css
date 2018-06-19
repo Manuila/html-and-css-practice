@@ -3444,3 +3444,101 @@ td,
 th {
   padding: 0;
 }
+
+@font-face {
+  font-family: 'arial';
+  src: url("../fonts/Arial.woff") format("woff");
+  font-weight: normal;
+}
+
+body {
+  font-family: "arial";
+  font-size: 16px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+select {
+  padding: 0px;
+  border: 0px;
+}
+
+.container {
+  max-width: 1024px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.header__top {
+  background-color: #000;
+  text-transform: uppercase;
+}
+
+.header__top__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+}
+
+.header__top__contact__link {
+  color: #fff;
+}
+
+.header__top__contact__number {
+  margin-left: 5px;
+}
+
+.header__top__nav__menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__top__nav__item {
+  padding: 7px 12px;
+  border-left: 1px solid #555;
+}
+
+.header__top__nav__item__link {
+  color: #fff;
+}
+
+.header__top__nav__item__text {
+  margin-left: 5px;
+}
+
+.header__top__nav__item__currency {
+  color: #fff;
+  background-color: #000;
+  text-transform: uppercase;
+}
+
+.header__top__nav__item:last-child {
+  border-right: 1px solid #555555;
+}
+
+.fa-user {
+  color: #666;
+  font-size: 14px;
+}
+
+.fa-search {
+  font-size: 14px;
+}

@@ -1,0 +1,56 @@
+.header__top{
+    background-color: #000;
+    text-transform: uppercase;
+
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 11px;
+    }
+    &__contact{
+    
+        &__link{
+            color: #fff;
+        }
+
+        &__number{
+            margin-left: 5px;
+        }
+    }
+        
+    &__nav__menu{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__nav__item{
+        padding: 7px 12px;
+        border-left: 1px solid #555;
+        
+        &__link{
+            color:#fff;
+        }
+
+        &__text{
+            margin-left: 5px;
+        }
+        
+        &__currency{
+            color:#fff;
+            background-color: #000;
+            text-transform: uppercase;
+        }
+    }
+    &__nav__item:last-child{
+        border-right:1px solid #555555;
+    }
+}
+
+.fa-user{
+    color: #666;
+    font-size: 14px;
+}
+.fa-search{
+    font-size: 14px;
+}
