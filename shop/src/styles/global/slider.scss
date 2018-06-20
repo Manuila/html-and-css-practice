@@ -39,3 +39,31 @@
 .slick-next:hover{
   background-color: #f9926d;
 }
+
+.slick-dots{
+  text-align: center;
+  padding: 30px;
+}
+.slick-dots li{
+  display:inline-block;
+}
+.slick-dots li button{
+  font-size: 0px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  color:#867a76;
+  transition: color 0.3s;
+ }
+ .slick-dots li button:hover{
+  color:#fd926d;
+ }
+.slick-dots li button:before {
+  font-family: FontAwesome;
+  content: "\f111";
+  font-size: 0.6875rem;
+ }
+
+ .slick-dots li.slick-active button:before {
+  color:#fd926d;
+}

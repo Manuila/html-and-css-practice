@@ -40,7 +40,7 @@ gulp.task('sass', function () {
     }))
     //.pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
     //.pipe(rename('main.min.css'))
-    .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
+    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
     .pipe(gulp.dest('dist/css'));
 });
 
