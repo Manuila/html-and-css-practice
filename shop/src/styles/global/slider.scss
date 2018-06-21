@@ -1,76 +1,87 @@
-.slider{
+.slider__main{
   position: relative;
   margin-top:15px;
-}
-.slider__item{
-  background: #ccc;
-  height: 440px;
-  width: 100%;
-}
-.slick-prev,
-.slick-next{
-  position: absolute;
-  top: 161.5px;
-  z-index: 1;
-  font-size: 0px;
-  border: none;
-  outline: none;
-  height: 117px;
-  background-color: #fefefd;
-  transition: background-color 0.3s;
-  padding: 7px;
-}
-.slick-next{
-  left:auto;
-  right: 0;
-}
-.slick-prev::before{
-  content: "\f053";
-  font-family: FontAwesome;
-  font-size: 18px;
-  color:#cbcbca;
-}
-.slick-next::before{
-  content: "\f054";
-  font-family: FontAwesome;
-  font-size: 18px;
-  color:#cbcbca;
-}
-.slick-prev:hover,
-.slick-next:hover{
-  background-color: #f9926d;
-}
 
-.slick-dots{
-  margin-top: 17px;
-  text-align: center;
-  padding: 10px;
-}
-.slick-dots li{
-  display:inline-block;
-}
-.slick-dots li button{
-  font-size: 0px;
-  border: none;
-  outline: none;
-  background-color: #fff;
-  color:#867a76;
-  transition: color 0.3s;
- }
- .slick-dots li button:hover{
-  color:#fd926d;
- }
-.slick-dots li button:before {
-  font-family: FontAwesome;
-  content: "\f111";
-  font-size: 0.6875rem;
- }
+  .slider__item{
+    background: #ccc;
+    height: 440px;
+    width: 100%;
+  }
 
- .slick-dots li.slick-active button:before {
-  color:#fd926d;
-}
-.slider__img{
-  height: 100%; 
-  width: 100%; 
-  object-fit: cover;
+  .slick-prev,
+  .slick-next{
+    position: absolute;
+    top: 161.5px;
+    z-index: 1;
+    font-size: 0px;
+    border: none;
+    outline: none;
+    height: 117px;
+    background-color: #fefefd;
+    transition: background-color 0.3s;
+    padding: 7px;
+  }
+
+  .slick-next{
+    left:auto;
+    right: 0;
+  }
+
+  .slick-prev::before{
+    content: "\f053";
+    font-family: FontAwesome;
+    font-size: 18px;
+    color:#cbcbca;
+  }
+
+  .slick-next::before{
+    content: "\f054";
+    font-family: FontAwesome;
+    font-size: 18px;
+    color:#cbcbca;
+  }
+
+  .slick-prev:hover,
+  .slick-next:hover{
+    background-color: #f9926d;
+  }
+
+  .slick-dots{
+    margin-top: 17px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .slick-dots li{
+    display:inline-block;
+  }
+
+  .slick-dots li button{
+    font-size: 0px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color:#867a76;
+    transition: color 0.3s;
+  }
+
+  .slick-dots li button:hover{
+    color:#fd926d;
+  }
+
+  .slick-dots li button:before {
+    font-family: FontAwesome;
+    content: "\f111";
+    font-size: 0.6875rem;
+  }
+
+  .slick-dots li.slick-active button:before {
+    color:#fd926d;
+  }
+  
+  .slider__img{
+    height: 100%; 
+    width: 100%; 
+    object-fit: cover;
+  }
 }

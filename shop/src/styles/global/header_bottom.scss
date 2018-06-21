@@ -1,8 +1,11 @@
-.header__bottom{
+.section__header__bottom{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   margin-top: 55px;
+}
+
+.header__bottom{
   &__logo {
     flex:1 1 auto;
   }

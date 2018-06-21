@@ -1,16 +1,16 @@
-.header__top{
+.section__header__top{
   background-color: #000;
   text-transform: uppercase;
   position: fixed;
   top: 0;
   width: 100%;
-
-  &__content{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 0.6875rem;
-  }
+  z-index: 2;
+}
+.header__top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.6875rem;
   
   &__contact{
     
