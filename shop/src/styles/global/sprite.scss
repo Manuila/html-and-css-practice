@@ -1,0 +1,200 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$card-1-name: 'card_1';
+$card-1-x: 34px;
+$card-1-y: 44px;
+$card-1-offset-x: -34px;
+$card-1-offset-y: -44px;
+$card-1-width: 34px;
+$card-1-height: 22px;
+$card-1-total-width: 104px;
+$card-1-total-height: 88px;
+$card-1-image: '../images/sprite.png';
+$card-1: (34px, 44px, -34px, -44px, 34px, 22px, 104px, 88px, '../images/sprite.png', 'card_1', );
+$card-10-name: 'card_10';
+$card-10-x: 35px;
+$card-10-y: 0px;
+$card-10-offset-x: -35px;
+$card-10-offset-y: 0px;
+$card-10-width: 35px;
+$card-10-height: 22px;
+$card-10-total-width: 104px;
+$card-10-total-height: 88px;
+$card-10-image: '../images/sprite.png';
+$card-10: (35px, 0px, -35px, 0px, 35px, 22px, 104px, 88px, '../images/sprite.png', 'card_10', );
+$card-11-name: 'card_11';
+$card-11-x: 0px;
+$card-11-y: 0px;
+$card-11-offset-x: 0px;
+$card-11-offset-y: 0px;
+$card-11-width: 35px;
+$card-11-height: 22px;
+$card-11-total-width: 104px;
+$card-11-total-height: 88px;
+$card-11-image: '../images/sprite.png';
+$card-11: (0px, 0px, 0px, 0px, 35px, 22px, 104px, 88px, '../images/sprite.png', 'card_11', );
+$card-2-name: 'card_2';
+$card-2-x: 70px;
+$card-2-y: 22px;
+$card-2-offset-x: -70px;
+$card-2-offset-y: -22px;
+$card-2-width: 34px;
+$card-2-height: 22px;
+$card-2-total-width: 104px;
+$card-2-total-height: 88px;
+$card-2-image: '../images/sprite.png';
+$card-2: (70px, 22px, -70px, -22px, 34px, 22px, 104px, 88px, '../images/sprite.png', 'card_2', );
+$card-3-name: 'card_3';
+$card-3-x: 0px;
+$card-3-y: 44px;
+$card-3-offset-x: 0px;
+$card-3-offset-y: -44px;
+$card-3-width: 34px;
+$card-3-height: 22px;
+$card-3-total-width: 104px;
+$card-3-total-height: 88px;
+$card-3-image: '../images/sprite.png';
+$card-3: (0px, 44px, 0px, -44px, 34px, 22px, 104px, 88px, '../images/sprite.png', 'card_3', );
+$card-4-name: 'card_4';
+$card-4-x: 35px;
+$card-4-y: 22px;
+$card-4-offset-x: -35px;
+$card-4-offset-y: -22px;
+$card-4-width: 34px;
+$card-4-height: 22px;
+$card-4-total-width: 104px;
+$card-4-total-height: 88px;
+$card-4-image: '../images/sprite.png';
+$card-4: (35px, 22px, -35px, -22px, 34px, 22px, 104px, 88px, '../images/sprite.png', 'card_4', );
+$card-5-name: 'card_5';
+$card-5-x: 70px;
+$card-5-y: 0px;
+$card-5-offset-x: -70px;
+$card-5-offset-y: 0px;
+$card-5-width: 34px;
+$card-5-height: 22px;
+$card-5-total-width: 104px;
+$card-5-total-height: 88px;
+$card-5-image: '../images/sprite.png';
+$card-5: (70px, 0px, -70px, 0px, 34px, 22px, 104px, 88px, '../images/sprite.png', 'card_5', );
+$card-6-name: 'card_6';
+$card-6-x: 0px;
+$card-6-y: 22px;
+$card-6-offset-x: 0px;
+$card-6-offset-y: -22px;
+$card-6-width: 35px;
+$card-6-height: 22px;
+$card-6-total-width: 104px;
+$card-6-total-height: 88px;
+$card-6-image: '../images/sprite.png';
+$card-6: (0px, 22px, 0px, -22px, 35px, 22px, 104px, 88px, '../images/sprite.png', 'card_6', );
+$card-7-name: 'card_7';
+$card-7-x: 70px;
+$card-7-y: 44px;
+$card-7-offset-x: -70px;
+$card-7-offset-y: -44px;
+$card-7-width: 34px;
+$card-7-height: 22px;
+$card-7-total-width: 104px;
+$card-7-total-height: 88px;
+$card-7-image: '../images/sprite.png';
+$card-7: (70px, 44px, -70px, -44px, 34px, 22px, 104px, 88px, '../images/sprite.png', 'card_7', );
+$card-8-name: 'card_8';
+$card-8-x: 0px;
+$card-8-y: 66px;
+$card-8-offset-x: 0px;
+$card-8-offset-y: -66px;
+$card-8-width: 34px;
+$card-8-height: 22px;
+$card-8-total-width: 104px;
+$card-8-total-height: 88px;
+$card-8-image: '../images/sprite.png';
+$card-8: (0px, 66px, 0px, -66px, 34px, 22px, 104px, 88px, '../images/sprite.png', 'card_8', );
+$card-9-name: 'card_9';
+$card-9-x: 34px;
+$card-9-y: 66px;
+$card-9-offset-x: -34px;
+$card-9-offset-y: -66px;
+$card-9-width: 34px;
+$card-9-height: 22px;
+$card-9-total-width: 104px;
+$card-9-total-height: 88px;
+$card-9-image: '../images/sprite.png';
+$card-9: (34px, 66px, -34px, -66px, 34px, 22px, 104px, 88px, '../images/sprite.png', 'card_9', );
+$spritesheet-width: 104px;
+$spritesheet-height: 88px;
+$spritesheet-image: '../images/sprite.png';
+$spritesheet-sprites: ($card-1, $card-10, $card-11, $card-2, $card-3, $card-4, $card-5, $card-6, $card-7, $card-8, $card-9, );
+$spritesheet: (104px, 88px, '../images/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

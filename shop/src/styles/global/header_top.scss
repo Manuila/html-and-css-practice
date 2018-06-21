@@ -59,3 +59,31 @@
 .fa-search{
   font-size: 14px;
 }
+
+@media screen and (max-width: 640px){
+  .header__top{
+    flex-direction: column;
+
+    &__contact{
+      padding: 10px;
+      background-color: #fafafa;
+      text-align: center;
+      width: 100%;
+      &__link{
+        color: #838383;
+      }
+
+    }
+    &__nav__item:last-child{
+      border-right:none;
+    }
+    &__nav__item:first-child{
+      border-left:none;
+    }
+  }
+  .section__header__top{
+    .container{
+      padding: 0px;
+    }
+  }
+}
