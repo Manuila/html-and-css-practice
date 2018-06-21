@@ -3,7 +3,7 @@
   margin-top:15px;
 }
 .slider__item{
-  background: #cccccc;
+  background: #ccc;
   height: 440px;
   width: 100%;
 }
@@ -69,7 +69,7 @@
  .slick-dots li.slick-active button:before {
   color:#fd926d;
 }
-.slider .slider__item img{
+.slider__img{
   height: 100%; 
   width: 100%; 
   object-fit: cover;

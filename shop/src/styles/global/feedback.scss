@@ -3,6 +3,7 @@
   background-color: #ededed;
   margin-top: 20px;
 }
+
 .feedback{
   display: flex;
   justify-content: space-between;
@@ -32,6 +33,7 @@
       border: none;
       color: #fff;
       background-color: #fd926d;
+      border-top: 3px solid #fd926d;
       border-bottom: 3px solid #dd6b44;
       transition: all 0.3s;
       height: 28px;
@@ -45,6 +47,7 @@
     }
     &__button:hover{
       color: #dd6b44;
+      border-top: 3px solid #6d6d6d;
       border-bottom: 3px solid #dd6b44;
       background-color: #6d6d6d;
     }
