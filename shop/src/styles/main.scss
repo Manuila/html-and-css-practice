@@ -1,15 +1,19 @@
 @import '../../node_modules/font-awesome/scss/font-awesome';
 @import '../../node_modules/normalize.scss/normalize';
 @import '../../node_modules/slick-carousel/slick/slick.scss';
-@import 'global/slider.scss';
 
 @import 'global/fonts';
 @import 'global/vars';
 
 @import 'global/base.scss';
 @import 'global/common.scss';
-@import 'global/header_top.scss';
-@import 'global/header_bottom.scss';
-@import 'global/feedback.scss';
-@import 'global/gallery.scss';
-@import 'global/catalog_clothes.scss';
+@import 'global/button.scss';
+@import 'global/title_line.scss';
+@import 'global/clothes_item.scss';
+@import 'sections/slider_main.scss';
+@import 'sections/header_top.scss';
+@import 'sections/header_bottom.scss';
+@import 'sections/feedback.scss';
+@import 'sections/gallery.scss';
+@import 'sections/catalog_clothes.scss';
+@import 'sections/brands.scss';

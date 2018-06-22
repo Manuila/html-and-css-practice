@@ -1,0 +1,18 @@
+.section__brands {
+  margin-top:20px;
+  border-bottom: 1px solid #d8d8d8;
+}
+.brands__list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: auto;
+  height: 61px;
+  overflow: hidden;
+  padding: 0 15px;
+}
+.brands__item__img{
+  max-width: 150px;
+  max-height: 150px;
+}

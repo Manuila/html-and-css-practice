@@ -1,6 +1,6 @@
 .section__feedback{
   height: 55px;
-  background-color: #ededed;
+  background-color: $color-section;
   margin-top: 20px;
 }
 
@@ -9,7 +9,7 @@
   justify-content: space-between;
   align-items: center;
   height: 55px;
-  color:#6d6d6d;
+  color: $color-main-text;
   font-size: 12px;
 
   &__form{
@@ -31,10 +31,10 @@
     &__button{
       outline: none;
       border: none;
-      color: #fff;
-      background-color: #fd926d;
-      border-top: 3px solid #fd926d;
-      border-bottom: 3px solid #dd6b44;
+      color: $color-btn-text;
+      background-color: $color-main;
+      border-top: 3px solid $color-main;
+      border-bottom: 3px solid $color-btn-bottom;
       transition: all 0.3s;
       height: 28px;
       width: 28px;
@@ -46,10 +46,9 @@
       font-size: 12px;
     }
     &__button:hover{
-      color: #dd6b44;
-      border-top: 3px solid #6d6d6d;
-      border-bottom: 3px solid #dd6b44;
-      background-color: #6d6d6d;
+      border-top: 3px solid $color-btn-hover;
+      border-bottom: 3px solid $color-main;
+      background-color: $color-btn-hover;
     }
   }
 
@@ -77,13 +76,13 @@
         width: 55px;
         text-align: center;
         padding: 14px;
-        color:#6d6d6d;
+        color: $color-icon;
         transition: all 0.3s;
       }
 
       &__link:hover{
-        color:#dd6b44;
-        background-color: #6d6d6d;
+        color: $color-main;
+        background-color: $color-btn-hover;
       }
     }
   }

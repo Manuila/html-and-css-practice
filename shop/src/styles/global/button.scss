@@ -1,0 +1,23 @@
+.button {
+  outline: none;
+  border: none;
+  background-color: $color-main;
+  color:#fff;
+  font-size: 11px;
+  text-transform: uppercase;
+  border-bottom: 3px solid $color-btn-bottom;
+  transition: all 0.3s linear;
+  padding: 12px 12px 9px 12px;
+}
+
+.button::after{
+  content: "\f067";
+  font-family: FontAwesome;
+  font-size: 11px;
+  margin-left: 12px;
+}
+
+.button:hover{
+  border-bottom: 3px solid $color-main;
+  background-color: $color-btn-hover;
+}

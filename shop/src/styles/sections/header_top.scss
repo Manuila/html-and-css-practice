@@ -1,5 +1,5 @@
 .section__header__top{
-  background-color: #000;
+  background-color: $color-header-top;
   text-transform: uppercase;
   position: fixed;
   top: 0;
@@ -15,7 +15,7 @@
   &__contact{
     
     &__link{
-      color: #fff;
+      color: $color-header-top-text;
     }
 
     &__number{
@@ -31,10 +31,10 @@
 
   &__nav__item{
     padding: 8px 12px;
-    border-left: 1px solid #555;
+    border-left: 1px solid #444;
       
     &__link{
-      color:#fff;
+      color: $color-header-top-text;
     }
 
     &__text{
@@ -42,18 +42,19 @@
     }
     
     &__currency{
-      color:#fff;
-      background-color: #000;
+      color: $color-header-top-text;
+      background-color: $color-header-top;
       text-transform: uppercase;
+      cursor: pointer;
+      outline: none;
     }
   }
   &__nav__item:last-child{
-    border-right:1px solid #555555;
+    border-right:1px solid #444;
   }
 }
-
 .fa-user{
-  color: #666;
+  color: $color-header-top-icon;
   font-size: 14px;
 }
 .fa-search{
