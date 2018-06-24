@@ -5,24 +5,25 @@
   font-size: 15px;
   font-weight: bold;
   position: relative;
+  overflow: hidden;
 }
 
-// .title_line::after,
-// .title_line::before{
-//   content: '';
-//   display: inline-block;
-//   background-color: #d8d8d8;
-//   height: 1px;
-//   position: absolute;
-//   top: 50%;
-//   width: 100%;
-//   border: solid #ffffff;
-//   border-width: 0 15px
-// }
+.title_line::after,
+.title_line::before{
+  content: '';
+  display: inline-block;
+  background-color: #d8d8d8;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  border: solid #ffffff;
+  border-width: 0 15px
+}
 
-// .title_line::before {
-//   margin-left: -100%;
-// }
-// .title_line::after {
-//   margin-right: -100%;
-// }
+.title_line::before {
+  margin-left: -100%;
+}
+.title_line::after {
+  margin-right: -100%;
+}

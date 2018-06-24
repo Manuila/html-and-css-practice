@@ -41,14 +41,20 @@
 
   &__icon-circle{
     color:#4c4c4b;
+    transition: all 0.3s linear;
   }
 
   &__icon-social{
     color:#ffffff;
+    transition: all 0.3s linear;
   }
 
   &__link:hover &__icon-circle{
     color:#dd6b44;
+  }
+
+  &__link:hover &__icon-social{
+    color:#4c4c4b;
   }
 
 }

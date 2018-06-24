@@ -23,7 +23,7 @@
     text-align: center;
     padding: 14px;
     color: $color-icon;
-    transition: all 0.3s;
+    transition: all 0.3s linear;
 
     &:hover{
       color: $color-main;
