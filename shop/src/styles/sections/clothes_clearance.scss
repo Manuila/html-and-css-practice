@@ -1,0 +1,20 @@
+.section-clothes-clearance{
+  margin-top: 20px;
+}
+.clothes-clearance{
+  &__title{
+    text-align: center;
+    
+  }
+
+  &__list{
+    display: flex;
+    justify-content: space-between;
+    margin: -10px -15px;
+    background-color: #ffffff;
+  }
+}
+.clothes-clearance__img{
+
+}
+
