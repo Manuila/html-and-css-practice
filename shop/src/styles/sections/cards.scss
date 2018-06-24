@@ -1,0 +1,70 @@
+.section-cards{
+  background-color: #f7f7f7;
+}
+.cards{
+  padding: 14px 0px 12px 0px;
+  background-color: #f7f7f7;
+  
+  &__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  &-text{
+    font-size: 12px;
+    color:#999999;
+    margin-right:15px;
+  }
+
+  &-icon{
+    height: 25px;
+    width: 36px;
+    margin: 5px;
+
+    &-1{
+      @include sprite($card-1);
+    }
+
+    &-2{
+      @include sprite($card-2);
+    }
+
+    &-3{
+      @include sprite($card-3);
+    }
+
+    &-4{
+      @include sprite($card-4);
+    }
+
+    &-5{
+      @include sprite($card-5);
+    }
+
+    &-6{
+      @include sprite($card-6);
+    }
+
+    &-7{
+      @include sprite($card-7);
+    }
+
+    &-8{
+      @include sprite($card-8);
+    }
+
+    &-9{
+      @include sprite($card-9);
+    }
+
+    &-10{
+      @include sprite($card-10);
+    }
+
+    &-11{
+      @include sprite($card-11);
+    }
+  }
+}

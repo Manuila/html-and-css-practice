@@ -1,4 +1,4 @@
-.section__header__top{
+.section-header-top{
   background-color: $color-header-top;
   text-transform: uppercase;
   position: fixed;
@@ -6,63 +6,15 @@
   width: 100%;
   z-index: 2;
 }
-.header__top{
+.header-top{
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 0.6875rem;
-  
-  &__contact{
-    
-    &__link{
-      color: $color-header-top-text;
-    }
-
-    &__number{
-      letter-spacing: 0.5px;
-      margin-left: 5px;
-    }
-  }
-      
-  &__nav__menu{
-    display: flex;
-    justify-content: space-between;
-  }
-
-  &__nav__item{
-    padding: 8px 12px;
-    border-left: 1px solid #444;
-      
-    &__link{
-      color: $color-header-top-text;
-    }
-
-    &__text{
-      margin-left: 5px;
-    }
-    
-    &__currency{
-      color: $color-header-top-text;
-      background-color: $color-header-top;
-      text-transform: uppercase;
-      cursor: pointer;
-      outline: none;
-    }
-  }
-  &__nav__item:last-child{
-    border-right:1px solid #444;
-  }
-}
-.fa-user{
-  color: $color-header-top-icon;
-  font-size: 14px;
-}
-.fa-search{
-  font-size: 14px;
 }
 
 @media screen and (max-width: 640px){
-  .header__top{
+  .header-top{
     flex-direction: column;
 
     &__contact{
@@ -82,7 +34,7 @@
       border-left:none;
     }
   }
-  .section__header__top{
+  .section-header-top{
     .container{
       padding: 0px;
     }

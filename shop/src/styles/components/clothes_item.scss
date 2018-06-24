@@ -1,4 +1,4 @@
-.clothes__item{
+.clothes-item{
   background-color: #ccc;
   height: 395px;
   width: 220px;
@@ -50,33 +50,35 @@
     opacity:0;
     transition: visibility 0.3s linear, opacity 0.3s linear;
   }
+
+  &__sale{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top:0;
+    left:0;
+    background:#4c4c4c;
+
+    &:after{
+      content: "sale";
+      color:#ffffff;
+      font-size: 10px;
+      text-transform: uppercase;
+      position: absolute;
+      top:6px;
+      left: 4px;
+    }
+
+    &-right{
+      width: 0;
+      height: 0;
+      border-bottom: 50px solid #ffffff;
+      border-left: 50px solid transparent;
+    }
+  }
   
   &__link:hover &__shop-it{
     visibility: visible;
     opacity:1;
   }
-}
-
-.sale{
-  height: 50px;
-  width: 50px;
-  position: absolute;
-  top:0;
-  left:0;
-  background:#4c4c4c;
-}
-.sale:after{
-  content: "sale";
-  color:#ffffff;
-  font-size: 10px;
-  text-transform: uppercase;
-  position: absolute;
-  top:6px;
-  left: 4px;
-}
-.sale_right{
-  width: 0;
-  height: 0;
-  border-bottom: 50px solid #ffffff;
-  border-left: 50px solid transparent;
 }

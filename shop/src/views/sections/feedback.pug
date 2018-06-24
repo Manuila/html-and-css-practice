@@ -1,19 +1,7 @@
-section.section__feedback
+section.section-feedback
   .container
     .feedback
-      form.feedback__form(action="#")
-        label.feedback__form__label(for="stay-updated") Stay updated
-        input.feedback__form__input(type="email" name="email" placeholder="You email address" required)
-        button.feedback__form__button(type="submit")
+      .feedback__form
+        include ../components/form_updated
       .feedback__social
-        ul.feedback__social__menu
-          li.feedback__social__menu__item-text Find us here
-          li.feedback__social__menu__item
-            a.feedback__social__menu__link(href="#")
-              i.feedback__social__menu__icon.fa.fa-facebook(aria-hidden="true")
-          li.feedback__social__menu__item
-            a.feedback__social__menu__link(href="#")
-              i.feedback__social__menu__icon.fa.fa-twitter(aria-hidden="true")
-          li.feedback__social__menu__item
-            a.feedback__social__menu__link(href="#")
-              i.feedback__social__menu__icon.fa.fa-pinterest(aria-hidden="true")          
+        include ../components/social         

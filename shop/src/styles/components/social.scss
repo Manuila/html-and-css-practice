@@ -1,0 +1,33 @@
+.social{
+  display: flex;
+  align-items: center;
+
+  &__item{
+    position: relative;
+    font-size: 24px;
+    
+    &-text{
+      font-size: 12px;
+      margin-right: 14px;
+    }
+
+    &:nth-child(even){
+      background-color: #f7f7f7;
+    }
+  }
+  
+  &__link{
+    display: inline-block;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 14px;
+    color: $color-icon;
+    transition: all 0.3s;
+
+    &:hover{
+      color: $color-main;
+      background-color: $color-btn-hover;
+    }
+  }
+}

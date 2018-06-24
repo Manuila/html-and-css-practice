@@ -1,19 +1,9 @@
 .container
-  section.section__header__bottom
-    .header__bottom__logo.logo
-      a.logo__link(href='#')
-        img.logo__img(src='images/logo.png' alt='logo')
-    nav.header__bottom__nav.nav
-      - var items = ['new', 'designers', 'women', 'men', 'clearence']
-          each item in items
-            a.nav__link(href="#")=item
-    .header__bottom__shopping
-      select.shopping__cart
-        option(disabled selected hidden) Your cart
-        option Master cart
-        option Maestro
-      .shopping__bag
-        span.shopping__bag__left
-          i.fa.fa-shopping-bag(aria-hidden="true")
-        span.shopping__bag__right 0 Items
-          span.shopping__bag__right__separatop $ 0
+  section.section-header-bottom
+    .header-bottom__logo.logo
+      a.logo__link(href="#")
+        img.logo__img(src="images/logo.png" alt="logo")
+    .header-bottom__nav
+      include ../components/nav
+    .header-bottom__shopping
+      include ../components/shopping_card

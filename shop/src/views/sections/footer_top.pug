@@ -1,0 +1,42 @@
+section.section-footer-top
+  .container
+    .footer-top
+      .footer-top__column
+        h3.footer-top__title Customer Service
+        ul.footer-top__list
+          - var items = ['contact', 'FAQ', 'Terms of payment', 'Terms of sale', 'Delivery terms and conditions', 'Returns and Refunds']
+              each item in items
+                li.footer-top__item
+                  a.footer-top__link(href="#")=item
+      .footer-top__column
+        h3.footer-top__title Information
+        ul.footer-top__list
+          - var items = ['Affiliate', 'Cookies', 'How to Shop', 'About Nelly', 'Investor relations']
+              each item in items
+                li.footer-top__item
+                  a.footer-top__link(href="#")=item
+      .footer-top__column
+        h3.footer-top__title Campaigns
+        ul.footer-top__list
+          - var items = ['Evening Dresses', 'Makeup', 'Fashion forward', 'Training clothes', 'Special Occasion Dresses']
+              each item in items
+                li.footer-top__item
+                  a.footer-top__link(href="#")=item
+      .footer-top__column
+        h3.footer-top__title Stores
+        ul.footer-top__list
+          - var items = ['Paris', 'New York', 'London', 'Madrid', 'Tokio']
+              each item in items
+                li.footer-top__item
+                  a.footer-top__link(href="#")=item
+      .footer-top__column
+        h3.footer-top__title Social
+        ul.footer-top__list.footer-social
+          - var items = ['twitter', 'pinterest', 'facebook', 'google-plus', 'tumblr', 'vimeo']
+              each item in items
+                li.footer-top__item.footer-social__icon
+                  a.footer-top__link.footer-social__link(href="#")
+                    span.fa-stack.fa-lg
+                      i.footer-social__icon-circle.fa.fa-circle.fa-stack-2x
+                      i(class='footer-social__icon-social fa fa-'+item+' fa-stack-1x')
+      .footer-top__column.secure

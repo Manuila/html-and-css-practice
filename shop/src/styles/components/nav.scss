@@ -1,0 +1,26 @@
+.nav-main{
+  display: inline-block;
+  vertical-align: top;
+
+  &__link{
+    color: #000;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    margin-right: 10px;
+    max-width: 100px;
+    overflow: hidden;
+    transition: color 0.3s;
+    
+    &:hover{
+      color: #f9926d;
+    }
+
+    &::after{
+      content: "\f0d7";
+      font-family: FontAwesome;
+      font-size: 0.875rem;
+      margin-left: 5px;
+    }
+  } 
+}

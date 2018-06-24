@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('.slider__main').slick({
+  $('.slider-main').slick({
     dots: true,
     infinite: true,
     speed: 300,
@@ -9,7 +9,7 @@ $(document).ready(function(){
     draggable:false,
     arrows:true,
   });
-  $('.slider__clothes').slick({
+  $('.slider-clothes').slick({
     infinite: true,
     speed: 300,
     centerMode: true,

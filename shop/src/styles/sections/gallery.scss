@@ -1,4 +1,4 @@
-.section__gallery{
+.section-gallery{
   margin-top: 38px;
 }
 .gallery{
@@ -26,13 +26,13 @@
     height: 100%;
     transition: all 0.3s;
     border: 3px solid #fff;
+
+    &:hover{
+      border: 3px solid #dd6b44;
+      opacity: 0.6;
+    }
   }
   
-  &__link:hover{
-    border: 3px solid #dd6b44;
-    opacity: 0.6;
-  }
-
   &__img{
     height: 100%; 
     width: 100%; 

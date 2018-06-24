@@ -1,11 +1,17 @@
-.slider__main{
+.slider-main{
   position: relative;
   margin-top:15px;
 
-  .slider__item{
+  &__item{
     background: #ccc;
     height: 440px;
     width: 100%;
+  }
+
+  &__img{
+    height: 100%; 
+    width: 100%; 
+    object-fit: cover;
   }
 
   .slick-prev,
@@ -77,11 +83,5 @@
 
   .slick-dots li.slick-active button:before {
     color:#fd926d;
-  }
-  
-  .slider__img{
-    height: 100%; 
-    width: 100%; 
-    object-fit: cover;
   }
 }

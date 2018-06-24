@@ -1,0 +1,35 @@
+.menu-top{
+  display: flex;
+  
+  &__item{
+    padding: 8px 12px;
+    border-left: 1px solid #444;
+
+    &:last-child{
+      border-right:1px solid #444;
+    }
+  }
+  
+  &__link{
+    color: $color-header-top-text;
+  }
+
+  &__text{
+    margin-left: 5px;
+  }
+  
+  &__select{
+    color: $color-header-top-text;
+    background-color: $color-header-top;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+  }
+
+  &__icon{
+    font-size: 14px;
+    &-user{
+      color: $color-header-top-icon;
+    }
+  }
+}

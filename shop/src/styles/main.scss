@@ -8,13 +8,35 @@
 @import 'global/base.scss';
 @import 'global/common.scss';
 @import 'global/button.scss';
+@import 'global/sprite.scss';
 @import 'global/title_line.scss';
-@import 'global/clothes_item.scss';
-@import 'sections/slider_main.scss';
+@import 'components/clothes_item.scss';
+
+/** HEADER_TOP */
 @import 'sections/header_top.scss';
+@import 'components/contact.scss';
+@import 'components/menu_top.scss';
+/** HEADER_BOTTOM */
 @import 'sections/header_bottom.scss';
+@import 'components/nav.scss';
+@import 'components/shopping_card.scss';
+/** SLIDER_MAIN */
+@import 'sections/slider_main.scss';
+/** FEEDBACK */
 @import 'sections/feedback.scss';
+@import 'components/form_updated.scss';
+@import 'components/social.scss';
+/** GALLERY */
 @import 'sections/gallery.scss';
+/** CATALOG_CLOTHES */
 @import 'sections/catalog_clothes.scss';
+/** BRANDS */
 @import 'sections/brands.scss';
+/** ABOUT */
 @import 'sections/about.scss';
+/** CARDS */
+@import 'sections/cards.scss';
+/** FOOTER */
+@import 'sections/footer.scss';
+@import 'sections/footer_top.scss';
+@import 'sections/footer_bottom.scss';

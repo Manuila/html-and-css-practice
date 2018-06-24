@@ -1,20 +1,7 @@
-section.section__header__top
+section.section-header-top
   .container
-    .header__top
-      .header__top__contact
-        a.header__top__contact__link(href='tel:++1111111')
-          span.header__top__contact__text custom care:
-          span.header__top__contact__number 888-23-4567
-      .header__top__nav
-        ul.header__top__nav__menu
-          li.header__top__nav__item
-            select.header__top__nav__item__currency
-              option $ US
-              option Euro
-          li.header__top__nav__item
-            a.header__top__nav__item__link(href='#')
-              i.fa.fa-user(aria-hidden='true')
-              span.header__top__nav__item__text My account
-          li.header__top__nav__item
-            a.header__top__nav__item__link(href="#")
-              i.fa.fa-search.fa-rotate-90(aria-hidden='true')
+    .header-top
+      .header-top__contact
+        include ../components/contact
+      .header-top__nav
+        include ../components/menu_top
