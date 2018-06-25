@@ -1,3 +1,53 @@
+.section-catalog-clothes{
+  margin-top: 50px;
+}
+.catalog-clothes{
+  &-nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-menu{
+
+    &__list{
+      display: flex;
+    }
+
+    &__item{
+      font-size:15px;
+      text-transform: uppercase;
+    }
+
+    &__link{
+      color: #555555;
+      display: inline-block;
+      padding:15px 19px;
+      transition: all 0.3s linear;
+    }
+
+    &__link:hover{
+      color:#fff;
+      background-color: #fd926d;
+    }
+  }
+}
+
 .slider-clothes{
   background-color: $color-main;
+  &-buttons__list{
+    display: flex;
+  }
+
+  &-button-prev,
+  &-button-next{
+    color: #555555;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    padding:0 15px;
+    transition: all 0.3s linear;
+    &:hover{
+      background-color: #fd926d;
+      color: #fff;
+    }
+  }
 }

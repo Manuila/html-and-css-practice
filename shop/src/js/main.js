@@ -14,6 +14,8 @@ $(document).ready(function(){
     speed: 300,
     centerMode: true,
     slidesToShow: 5,
-    variableWidth: true
+    variableWidth: true,
+    prevArrow: $('.slider-clothes-button-prev'),
+    nextArrow: $('.slider-clothes-button-next'),
   });
  });

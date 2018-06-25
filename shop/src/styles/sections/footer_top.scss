@@ -1,12 +1,12 @@
 .section-footer-top{
   background: #ededed;
-  padding-top:22px;
 }
 .footer-top{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   background: #ededed;
+  padding: 20px 0px;
   
   &__column{
    
@@ -23,7 +23,7 @@
     color:#999999;
     font-size: 12px;
     transition: all 0.3s linear;
-
+    
     &:hover{
       color:#dd6b44;
     }
