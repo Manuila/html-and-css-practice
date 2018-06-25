@@ -1,59 +1,45 @@
 body{
-    font-family: $ff-main;
-    font-size: 1rem;
+  font-family: $ff-main;
+  font-size: 1rem;
 }
 html{
-    box-sizing: border-box;
+  box-sizing: border-box;
+  height:100%;
 }
 
 *, *:before, *:after{
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 ul,
 ol{
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
 }
 a{
-    text-decoration: none;
+  text-decoration: none;
 }
 select{
-    padding: 0px;
-    border: 0px;
+  padding: 0px;
+  border: 0px;
 }
 
-/** SECTIONS */
-// .page{
-//   display: flex;
-//   flex-direction: column;
-//   height: 100%;
-// }
-// .page__header{
-//   flex: 2 0 auto;
-// }
-// .container {
-//   //display: flex;
-//   //flex-direction: column;
-// }
-// .page__body {
-//   flex: 1 0 auto;
-// }
-// .page__footer {
-//   flex: 0 0 auto;
-// }
 .page{
   display: flex;
-  min-height: 100vh;
-  width: 100%;
   flex-direction: column;
+  height: 100%;
 
+  &__header{
+    flex:2 0 auto
+  }
+  
   &__main{
     flex: 1 0 auto;
   }
-  
-  &__header,
+
   &__footer{
-    flex-shrink: 0;
+    flex: 0 0 auto;
   }
 }
+
+/** SECTIONS */
