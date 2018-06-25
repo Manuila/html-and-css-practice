@@ -2,11 +2,14 @@
 
 }
 .about{
+  $color-title: #414141;
+  $color-text: #999;
+
   text-align: center;
   padding: 15px 0px 21px 0px;
 
   &__title{
-    color:#414141;
+    color: $color-title;
     font-size: 24px;
     font-weight: normal;
     margin:10px 0px;    
@@ -14,7 +17,7 @@
 
   &__text{
     margin: 5px 0px;;
-    color:#999999;
+    color: $color-text;
     font-size: 14px;
     line-height: 1.3;
   }

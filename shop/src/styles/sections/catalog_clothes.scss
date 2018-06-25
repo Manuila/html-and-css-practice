@@ -2,12 +2,17 @@
   margin-top: 50px;
 }
 .catalog-clothes{
+
   &-nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
   }
+
   &-menu{
+    $color-link: #555;
+    $color-link-text-hover: #fff;
+    $color-bg-link-hover: #fd926d;
 
     &__list{
       display: flex;
@@ -19,35 +24,42 @@
     }
 
     &__link{
-      color: #555555;
+      color: $color-link;
       display: inline-block;
       padding:15px 19px;
       transition: all 0.3s linear;
     }
 
     &__link:hover{
-      color:#fff;
-      background-color: #fd926d;
+      color: $color-link-text-hover;
+      background-color: $color-bg-link-hover;
     }
   }
 }
 
 .slider-clothes{
-  background-color: $color-main;
+  $color-link: #555;
+  $color-btn-bg: #f2f2f2;
+  $color-btn-hover: #fd926d;
+  $color-btn-text-hover: #fff;
+  $color-bg: #fd926d;
+
+  background-color: $color-bg;
+  
   &-buttons__list{
     display: flex;
   }
 
   &-button-prev,
   &-button-next{
-    color: #555555;
-    background-color: #f2f2f2;
+    color: $color-link;
+    background-color: $color-btn-bg;
     cursor: pointer;
     padding:0 15px;
     transition: all 0.3s linear;
     &:hover{
-      background-color: #fd926d;
-      color: #fff;
+      background-color: $color-btn-hover;
+      color: $color-btn-text-hover;
     }
   }
 }

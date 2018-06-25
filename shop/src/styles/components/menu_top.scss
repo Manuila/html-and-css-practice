@@ -1,17 +1,22 @@
 .menu-top{
+  $color-text: #fff;
+  $color-bg: #000;
+  $color-icon: #666;
+  $color-border: #444;
+
   display: flex;
   
   &__item{
     padding: 8px 12px;
-    border-left: 1px solid #444;
+    border-left: 1px solid $color-border;
 
     &:last-child{
-      border-right:1px solid #444;
+      border-right:1px solid $color-border;
     }
   }
   
   &__link{
-    color: $color-header-top-text;
+    color: $color-text;
   }
 
   &__text{
@@ -19,8 +24,8 @@
   }
   
   &__select{
-    color: $color-header-top-text;
-    background-color: $color-header-top;
+    color: $color-text;
+    background-color: $color-bg;
     text-transform: uppercase;
     cursor: pointer;
     outline: none;
@@ -29,7 +34,7 @@
   &__icon{
     font-size: 14px;
     &-user{
-      color: $color-header-top-icon;
+      color: $color-icon;
     }
   }
 }

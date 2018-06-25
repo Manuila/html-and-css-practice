@@ -1,4 +1,8 @@
 .social{
+  $color-icon: #6d6d6d;
+  $color-icon-hover: #fd926d;
+  $color-bg-icon-hover: #6d6d6d;
+  
   display: flex;
   align-items: center;
 
@@ -26,8 +30,8 @@
     transition: all 0.3s linear;
 
     &:hover{
-      color: $color-main;
-      background-color: $color-btn-hover;
+      color: $color-icon-hover;
+      background-color: $color-bg-icon-hover;
     }
   }
 }

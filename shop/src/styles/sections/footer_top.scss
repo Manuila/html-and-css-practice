@@ -1,18 +1,24 @@
 .section-footer-top{
-  background: #ededed;
+  background-color : #ededed;
 }
+
 .footer-top{
+  $color-bg: #ededed;
+  $color-title: #544f4d;
+  $color-link: #8b8887;
+  $color-link-hover:#dd6b44;
+   
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background: #ededed;
+  background-color: $color-bg;
   padding: 20px 0px;
   
   &__column{
    
   }
   &__title{
-    color:#544f4d;
+    color: $color-title;
     font-size: 16px;
     font-weight: bold;
     margin-top:9px;
@@ -20,17 +26,22 @@
   }
 
   &__link{
-    color:#999999;
+    color: $color-link;
     font-size: 12px;
     transition: all 0.3s linear;
     
     &:hover{
-      color:#dd6b44;
+      color: $color-link-hover;
     }
   }
 }
 
 .footer-social{
+  $color-bg-icon: #4c4c4b;
+  $color-bg-icon-hover: #dd6b44;
+  $color-icon: #fff;
+  $color-icon-hover: #4c4c4b;
+  
   display: flex;
   flex-wrap: wrap;
   width: 128px;
@@ -40,21 +51,21 @@
   }
 
   &__icon-circle{
-    color:#4c4c4b;
+    color: $color-bg-icon;
     transition: all 0.3s linear;
   }
 
   &__icon-social{
-    color:#ffffff;
+    color: $color-icon;
     transition: all 0.3s linear;
   }
 
   &__link:hover &__icon-circle{
-    color:#dd6b44;
+    color: $color-bg-icon-hover;
   }
 
   &__link:hover &__icon-social{
-    color:#4c4c4b;
+    color: $color-icon-hover;
   }
 
 }

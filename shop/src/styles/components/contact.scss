@@ -1,5 +1,7 @@
 .contact{
-  color: $color-header-top-text;
+  $color-text: #fff;
+  
+  color: $color-text;
   &__tel-number{
     letter-spacing: 0.5px;
     margin-left: 5px;

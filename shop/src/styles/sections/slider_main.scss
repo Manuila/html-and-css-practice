@@ -1,9 +1,17 @@
 .slider-main{
+  $color-bg: #ccc;
+  $color-bg-btn: #fefefd;
+  $color-btn-icon: #cbcbca;
+  $color-bg-btn-hover: #f9926d;
+  $color-dots: #867a76;
+  $color-dots-hover: #fd926d;
+  $color-dots-active: #fd926d;
+
   position: relative;
   margin-top:15px;
 
   &__item{
-    background: #ccc;
+    background-color: #ccc;
     height: 440px;
     width: 100%;
   }
@@ -23,7 +31,7 @@
     border: none;
     outline: none;
     height: 117px;
-    background-color: #fefefd;
+    background-color: $color-bg-btn;
     transition: background-color 0.3s;
     padding: 7px;
   }
@@ -37,19 +45,19 @@
     content: "\f053";
     font-family: FontAwesome;
     font-size: 18px;
-    color:#cbcbca;
+    color: $color-btn-icon;
   }
 
   .slick-next::before{
     content: "\f054";
     font-family: FontAwesome;
     font-size: 18px;
-    color:#cbcbca;
+    color: $color-btn-icon;
   }
 
   .slick-prev:hover,
   .slick-next:hover{
-    background-color: #f9926d;
+    background-color: $color-bg-btn-hover;
   }
 
   .slick-dots{
@@ -59,7 +67,7 @@
   }
 
   .slick-dots li{
-    display:inline-block;
+    display: inline-block;
   }
 
   .slick-dots li button{
@@ -67,12 +75,12 @@
     border: none;
     outline: none;
     background-color: #fff;
-    color:#867a76;
+    color: $color-dots;
     transition: color 0.3s;
   }
 
   .slick-dots li button:hover{
-    color:#fd926d;
+    color: $color-dots-hover;
   }
 
   .slick-dots li button:before {
@@ -82,6 +90,6 @@
   }
 
   .slick-dots li.slick-active button:before {
-    color:#fd926d;
+    color: $color-dots-active;
   }
 }

@@ -24,13 +24,14 @@ select{
   border: 0px;
 }
 
+ /* flex-grow | flex-shrink | flex-basis */
 .page{
   display: flex;
   flex-direction: column;
   height: 100%;
-
+ 
   &__header{
-    flex:2 0 auto
+    flex:2 0 auto;
   }
   
   &__main{

@@ -1,5 +1,7 @@
 .section-header-top{
-  background-color: $color-header-top;
+  $color-bg: #000;
+
+  background-color: $color-bg;
   text-transform: uppercase;
   position: fixed;
   top: 0;

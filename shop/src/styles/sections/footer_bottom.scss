@@ -1,13 +1,18 @@
+
 .section-footer-bottom{
   background-color: #000;
   font-size: 11px;
-  color:#8d8d8d;
 }
 
 .footer-bottom{
+  $color-text: #8d8d8d;
+  $color-bg: #000;
+  $color-link-hover:#dd6b44;
+
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  background-color: $color-bg;
   
   &__list{
     display: flex;
@@ -32,15 +37,16 @@
   &__link{
     display: inline-block;
     height: 100%;
-    color:#8d8d8d;
+    color: $color-text;
     transition: all 0.3s linear;
   
     &:hover{
-      color: #dd6b44;
+      color: $color-link-hover;
     }
   }
 
   &__copyright{
+    color: $color-text;
     text-align: right;
   }
 }

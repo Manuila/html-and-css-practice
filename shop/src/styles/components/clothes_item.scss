@@ -57,11 +57,11 @@
     position: absolute;
     top:0;
     left:0;
-    background:#4c4c4c;
+    background-color:#4c4c4c;
 
     &:after{
       content: "sale";
-      color:#ffffff;
+      color:#fff;
       font-size: 10px;
       text-transform: uppercase;
       position: absolute;

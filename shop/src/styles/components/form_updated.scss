@@ -1,4 +1,9 @@
 .form-updated{
+  $color-btn-text: #fff;
+  $color-btn-bottom: #dd6b44;
+  $color-btn-hover: #6d6d6d;
+  $color-btn-bg: #fd926d;
+
   font-size: 12px;
   
   &__label{
@@ -19,8 +24,8 @@
     outline: none;
     border: none;
     color: $color-btn-text;
-    background-color: $color-main;
-    border-top: 3px solid $color-main;
+    background-color: $color-btn-bg;
+    border-top: 3px solid $color-btn-bg;
     border-bottom: 3px solid $color-btn-bottom;
     transition: all 0.3s;
     height: 28px;
@@ -35,7 +40,7 @@
 
     &:hover{
       border-top: 3px solid $color-btn-hover;
-      border-bottom: 3px solid $color-main;
+      border-bottom: 3px solid $color-btn-bg;
       background-color: $color-btn-hover;
     }
   }
