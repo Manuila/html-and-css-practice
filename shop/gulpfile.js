@@ -79,6 +79,7 @@ gulp.task('js', function() {
   return gulp.src([
     'node_modules/jquery/dist/jquery.js',
     'node_modules/slick-carousel/slick/slick.min.js',
+    'src/js/scrollButton.js',
     'src/js/main.js'
   ])
   .pipe(sourcemaps.init())
