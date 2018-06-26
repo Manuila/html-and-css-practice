@@ -8,8 +8,31 @@
 .header-bottom{
   &__logo {
     flex: 1 1 auto;
-  }  
+  }
+  &__shopping{
+    margin-left: 20px;
+  }
 }
 .logo__link{
   display: inline-block;
+}
+
+@media screen and (max-width:768px) {
+  .header-bottom__logo{
+    order: 1;
+  }
+  .header-bottom__nav{
+    order: 3;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .header-bottom__shopping{
+    order: 2;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .section-header-bottom{
+    margin-top: 80px;
+  }
 }

@@ -10,3 +10,13 @@
   color: $color-main-text;
   font-size: 12px;
 }
+
+@media screen and (max-width: 640px){
+  .feedback{
+    flex-direction: column;
+    &__form{
+      margin-bottom: 10px;
+    }
+  }
+}
+
