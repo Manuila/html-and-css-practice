@@ -3,15 +3,18 @@
   $color-bg: #000;
   $color-icon: #666;
   $color-border: #444;
-
-  display: flex;
+  $font-size: 0.6875rem;
+  $font-size-icon: 0.875rem;
   
+  display: flex;
+  font-size: $font-size;
+
   &__item{
     padding: 8px 12px;
     border-left: 1px solid $color-border;
 
     &:last-child{
-      border-right:1px solid $color-border;
+      border-right: 1px solid $color-border;
     }
   }
   
@@ -32,9 +35,20 @@
   }
 
   &__icon{
-    font-size: 14px;
+    font-size: $font-size-icon;
     &-user{
       color: $color-icon;
+    }
+  }
+}
+
+@media screen and (max-width: 640px){
+  .menu-top{
+    &__item:last-child{
+      border-right:none;
+    }
+    &__item:first-child{
+      border-left:none;
     }
   }
 }

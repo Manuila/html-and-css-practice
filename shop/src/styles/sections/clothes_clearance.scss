@@ -16,3 +16,8 @@
     background-color: $color-bg;
   }
 }
+@media screen and (max-width: 640px){
+  .section-clothes-clearance{
+    display: none;
+  }
+}

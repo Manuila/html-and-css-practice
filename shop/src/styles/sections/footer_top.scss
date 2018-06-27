@@ -7,28 +7,35 @@
   $color-title: #544f4d;
   $color-link: #8b8887;
   $color-link-hover:#dd6b44;
-   
+  $font-size-title: 1rem;
+  $font-size-link: 0.75rem;
+
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: $color-bg;
-  padding: 20px 0px;
+  padding: 10px 0px 20px 0px;
   
   &__column{
-   
+   padding: 10px;
   }
   &__title{
     color: $color-title;
-    font-size: 16px;
+    font-size: $font-size-title;
     font-weight: bold;
-    margin-top:9px;
+    margin-top: 9px;
     margin-bottom: 10px;
   }
 
   &__link{
     color: $color-link;
-    font-size: 12px;
+    font-size: $font-size-link;
     transition: all 0.3s linear;
+    display: inline-block;
+    max-width: 160px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     
     &:hover{
       color: $color-link-hover;
@@ -41,13 +48,14 @@
   $color-bg-icon-hover: #dd6b44;
   $color-icon: #fff;
   $color-icon-hover: #4c4c4b;
-  
+  $font-size-link: 1rem;
+
   display: flex;
   flex-wrap: wrap;
   width: 128px;
 
   &__link{
-    font-size: 16px;
+    font-size: $font-size-link;
   }
 
   &__icon-circle{

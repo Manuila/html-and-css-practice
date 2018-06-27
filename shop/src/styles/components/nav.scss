@@ -1,4 +1,7 @@
 .nav-main {
+  $color-link:#000;
+  $font-size: 1rem;
+
   text-transform: lowercase;
   background-color:#fff;
   
@@ -7,11 +10,16 @@
   }
   
   &__link {
-    color: #000;
+    color: $color-link;
     display: block;
     padding: 15px;
-    font-size: 16px;
+    font-size: $font-size;
     transition: all 0.3s linear;
+
+    max-width: 120px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 
     &:hover {
       color: #fff;
@@ -21,7 +29,7 @@
     &_parent::after{
       content: "\f0d7";
       font-family: FontAwesome;
-      font-size: 0.875rem;//16px;
+      font-size: 0.875rem;
       margin-left: 5px;
     }
     
@@ -42,7 +50,7 @@
     &::after{
       content: "\f0c9";
       font-family: FontAwesome;
-      font-size: 25px;
+      font-size: 1.5625rem;
       color: #fff;
     }
   }
@@ -65,6 +73,9 @@
 
     &__list {
       display: none;
+    }
+    &__link{
+      max-width: 100%;
     }
   }
 }

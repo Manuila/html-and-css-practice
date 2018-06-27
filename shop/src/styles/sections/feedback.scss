@@ -4,18 +4,22 @@
 }
 
 .feedback{
+  $font-size: 0.75rem;
+  $color-text: #6d6d6d;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: $color-main-text;
-  font-size: 12px;
+  color: $color-text;
+  font-size: $font-size;
 }
 
 @media screen and (max-width: 640px){
   .feedback{
     flex-direction: column;
     &__form{
-      margin-bottom: 10px;
+      width: 100%;
+      text-align: center;
+      margin: 10px 0px;
     }
   }
 }

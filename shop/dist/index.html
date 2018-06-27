@@ -12,16 +12,16 @@
       <div class="container">
         <div class="header-top">
           <div class="header-top__contact"><a class="contact" href="tel:++1111111"><span class="contact__text">custom care:</span><span class="contact__tel-number">888-23-4567</span></a></div>
-          <div class="header-top__nav">
-            <ul class="menu menu-top menu_horizontal">
-              <li class="menu__item menu-top__item">
-                <select class="menu__select menu-top__select">
-                  <option class="menu__option menu-top__option">$ US</option>
-                  <option class="menu__option menu-top__option">Euro</option>
+          <div class="header-top__menu">
+            <ul class="menu-top">
+              <li class="menu-top__item">
+                <select class="menu-top__select">
+                  <option class="menu-top__option">$ US</option>
+                  <option class="menu-top__option">Euro</option>
                 </select>
               </li>
-              <li class="menu__item menu-top__item"><a class="menu__link menu-top__link menu__link_active" href="#"><i class="menu__icon menu-top__icon-user fa fa-user" aria-hidden="true"></i><span class="menu__text menu-top__text">My account</span></a></li>
-              <li class="menu__item menu-top__item"><a class="menu__link menu-top__link" href="#"> <i class="menu__icon menu-top__icon-search fa fa-search fa-rotate-90" aria-hidden="true"></i></a></li>
+              <li class="menu-top__item"><a class="menu-top__link menu__link_active" href="#"><i class="menu-top__icon menu-top__icon-user fa fa-user" aria-hidden="true"></i><span class="menu-top__text">My account</span></a></li>
+              <li class="menu-top__item"><a class="menu-top__link" href="#"> <i class="menu-top__icon menu-top__icon-search fa fa-search fa-rotate-90" aria-hidden="true"></i></a></li>
             </ul>
           </div>
         </div>
@@ -29,27 +29,29 @@
     </section>
     <div class="container">
       <section class="section-header-bottom">
-        <div class="header-bottom__logo logo"><a class="logo__link" href="#"><img class="logo__img" src="images/logo.png" alt="logo"/></a></div>
-        <div class="header-bottom__nav">
-          <nav class="nav-main">
-            <div class="nav-main__menu_small"><span class="nav-main__menu_small-text">Menu</span><a class="nav-main-toggle" href="#"></a></div>
-            <ul class="nav-main__list">
-              <li class="nav-main__item"><a class="nav-main__link nav-main__link_parent" href="#">new</a></li>
-              <li class="nav-main__item"><a class="nav-main__link nav-main__link_parent" href="#">designers</a></li>
-              <li class="nav-main__item"><a class="nav-main__link nav-main__link_parent" href="#">women</a></li>
-              <li class="nav-main__item"><a class="nav-main__link nav-main__link_parent" href="#">men</a></li>
-              <li class="nav-main__item"><a class="nav-main__link nav-main__link_parent" href="#">clearence</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div class="header-bottom__shopping">
-          <div class="shopping-card">
-            <select class="shopping-card__select">
-              <option class="shopping-card__option" disabled="disabled" selected="selected" hidden="hidden">Your cart</option>
-              <option class="shopping-card__option">Master cart</option>
-              <option class="shopping-card__option">Maestro</option>
-            </select>
-            <div class="shopping-bag"><span class="shopping-bag__icon"><i class="fa fa-shopping-bag" aria-hidden="true"></i></span><span class="shopping-bag__text">0 Items<span class="shopping-bag__text-price">$ 0</span></span></div>
+        <div class="header-bottom">
+          <div class="header-bottom__logo logo"><a class="logo__link" href="#"><img class="logo__img" src="images/logo.png" alt="logo"/></a></div>
+          <div class="header-bottom__nav">
+            <nav class="nav-main">
+              <div class="nav-main__menu_small"><span class="nav-main__menu_small-text">Menu</span><a class="nav-main-toggle" href="#"></a></div>
+              <ul class="nav-main__list">
+                <li class="nav-main__item"><a class="nav-main__link nav-main__link_parent" href="#">new</a></li>
+                <li class="nav-main__item"><a class="nav-main__link nav-main__link_parent" href="#">designers</a></li>
+                <li class="nav-main__item"><a class="nav-main__link nav-main__link_parent" href="#">women</a></li>
+                <li class="nav-main__item"><a class="nav-main__link nav-main__link_parent" href="#">men</a></li>
+                <li class="nav-main__item"><a class="nav-main__link nav-main__link_parent" href="#">clearence</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header-bottom__shopping">
+            <div class="shopping-card">
+              <select class="shopping-card__select">
+                <option class="shopping-card__option" disabled="disabled" selected="selected" hidden="hidden">Your cart</option>
+                <option class="shopping-card__option">Master cart</option>
+                <option class="shopping-card__option">Maestro</option>
+              </select>
+              <div class="shopping-bag"><span class="shopping-bag__icon"><i class="fa fa-shopping-bag" aria-hidden="true"></i></span><span class="shopping-bag__text">0 Items<span class="shopping-bag__text-price">$ 0</span></span></div>
+            </div>
           </div>
         </div>
       </section>
@@ -120,7 +122,7 @@
               <div class="clothes-item__caption">
                 <h5 class="clothes-item__title">Mimosa lace dress</h5>
                 <p class="clothes-item__text">$76.95</p>
-                <button class="clothes-item__button button">add to cart</button>
+                <button class="button clothes-item__button">add to cart</button>
               </div>
             </div>
             <div class="clothes-item"><a class="clothes-item__link" href="#"><img class="clothes-item__img" src="images/clothes5.jpg"/>
@@ -128,7 +130,7 @@
               <div class="clothes-item__caption">
                 <h5 class="clothes-item__title">Mimosa lace dress</h5>
                 <p class="clothes-item__text">$76.95</p>
-                <button class="clothes-item__button button">add to cart</button>
+                <button class="button clothes-item__button">add to cart</button>
               </div>
             </div>
             <div class="clothes-item"><a class="clothes-item__link" href="#"><img class="clothes-item__img" src="images/clothes5.jpg"/>
@@ -136,7 +138,7 @@
               <div class="clothes-item__caption">
                 <h5 class="clothes-item__title">Mimosa lace dress</h5>
                 <p class="clothes-item__text">$76.95</p>
-                <button class="clothes-item__button button">add to cart</button>
+                <button class="button clothes-item__button">add to cart</button>
               </div>
             </div>
             <div class="clothes-item"><a class="clothes-item__link" href="#"><img class="clothes-item__img" src="images/clothes5.jpg"/>
@@ -144,7 +146,7 @@
               <div class="clothes-item__caption">
                 <h5 class="clothes-item__title">Mimosa lace dress</h5>
                 <p class="clothes-item__text">$76.95</p>
-                <button class="clothes-item__button button">add to cart</button>
+                <button class="button clothes-item__button">add to cart</button>
               </div>
             </div>
             <div class="clothes-item"><a class="clothes-item__link" href="#"><img class="clothes-item__img" src="images/clothes5.jpg"/>
@@ -152,7 +154,7 @@
               <div class="clothes-item__caption">
                 <h5 class="clothes-item__title">Mimosa lace dress</h5>
                 <p class="clothes-item__text">$76.95</p>
-                <button class="clothes-item__button button">add to cart</button>
+                <button class="button clothes-item__button">add to cart</button>
               </div>
             </div>
             <div class="clothes-item"><a class="clothes-item__link" href="#"><img class="clothes-item__img" src="images/clothes5.jpg"/>
@@ -160,7 +162,7 @@
               <div class="clothes-item__caption">
                 <h5 class="clothes-item__title">Mimosa lace dress</h5>
                 <p class="clothes-item__text">$76.95</p>
-                <button class="clothes-item__button button">add to cart</button>
+                <button class="button clothes-item__button">add to cart</button>
               </div>
             </div>
             <div class="clothes-item"><a class="clothes-item__link" href="#"><img class="clothes-item__img" src="images/clothes6.jpg"/>
@@ -168,7 +170,7 @@
               <div class="clothes-item__caption">
                 <h5 class="clothes-item__title">Mimosa lace dress</h5>
                 <p class="clothes-item__text">$76.95</p>
-                <button class="clothes-item__button button">add to cart</button>
+                <button class="button clothes-item__button">add to cart</button>
               </div>
             </div>
             <div class="clothes-item"><a class="clothes-item__link" href="#"><img class="clothes-item__img" src="images/clothes7.jpg"/>
@@ -176,7 +178,7 @@
               <div class="clothes-item__caption">
                 <h5 class="clothes-item__title">Mimosa lace dress</h5>
                 <p class="clothes-item__text">$76.95</p>
-                <button class="clothes-item__button button">add to cart</button>
+                <button class="button clothes-item__button">add to cart</button>
               </div>
             </div>
             <div class="clothes-item"><a class="clothes-item__link" href="#"><img class="clothes-item__img" src="images/clothes8.jpg"/>
@@ -184,7 +186,7 @@
               <div class="clothes-item__caption">
                 <h5 class="clothes-item__title">Mimosa lace dress</h5>
                 <p class="clothes-item__text">$76.95</p>
-                <button class="clothes-item__button button">add to cart</button>
+                <button class="button clothes-item__button">add to cart</button>
               </div>
             </div>
       </div>
@@ -202,7 +204,7 @@
                   <div class="clothes-item__caption">
                     <h5 class="clothes-item__title">Mimosa lace dress</h5>
                     <p class="clothes-item__text">$76.95</p>
-                    <button class="clothes-item__button button">add to cart</button>
+                    <button class="button clothes-item__button">add to cart</button>
                   </div>
                 </div>
                 <div class="clothes-item"><a class="clothes-item__link" href="#"><img class="clothes-item__img" src="images/clothes2.jpg"/>
@@ -213,7 +215,7 @@
                   <div class="clothes-item__caption">
                     <h5 class="clothes-item__title">Mimosa lace dress</h5>
                     <p class="clothes-item__text">$76.95</p>
-                    <button class="clothes-item__button button">add to cart</button>
+                    <button class="button clothes-item__button">add to cart</button>
                   </div>
                 </div>
                 <div class="clothes-item"><a class="clothes-item__link" href="#"><img class="clothes-item__img" src="images/clothes3.jpg"/>
@@ -224,7 +226,7 @@
                   <div class="clothes-item__caption">
                     <h5 class="clothes-item__title">Mimosa lace dress</h5>
                     <p class="clothes-item__text">$76.95</p>
-                    <button class="clothes-item__button button">add to cart</button>
+                    <button class="button clothes-item__button">add to cart</button>
                   </div>
                 </div>
                 <div class="clothes-item"><a class="clothes-item__link" href="#"><img class="clothes-item__img" src="images/clothes4.jpg"/>
@@ -235,7 +237,7 @@
                   <div class="clothes-item__caption">
                     <h5 class="clothes-item__title">Mimosa lace dress</h5>
                     <p class="clothes-item__text">$76.95</p>
-                    <button class="clothes-item__button button">add to cart</button>
+                    <button class="button clothes-item__button">add to cart</button>
                   </div>
                 </div>
           </div>
@@ -358,7 +360,7 @@
     <section class="section-footer-bottom">
       <div class="container">
         <div class="footer-bottom">
-          <nav class="footer-bottom__nav">
+          <div class="footer-bottom__menu">
             <ul class="footer-bottom__list">
               <li class="footer-bottom__item"><a class="footer-bottom__link" href="#">Privacy &amp; Cookies</a></li>
               <li class="footer-bottom__item"><a class="footer-bottom__link" href="#">Terms &amp; Conditions</a></li>
@@ -366,8 +368,8 @@
               <li class="footer-bottom__item"><a class="footer-bottom__link" href="#">Store Directory</a></li>
               <li class="footer-bottom__item"><a class="footer-bottom__link" href="#">About Us</a></li>
             </ul>
-          </nav>
-          <div class="footer-bottom__copyright copyright">
+          </div>
+          <div class="copyright footer-bottom__copyright">
             <p class="footer-bottom__text">© LookShop.com</p>
             <p class="footer-bottom__text">All Rights Reserved</p>
           </div>

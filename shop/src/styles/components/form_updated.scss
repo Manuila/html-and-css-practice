@@ -3,8 +3,8 @@
   $color-btn-bottom: #dd6b44;
   $color-btn-hover: #6d6d6d;
   $color-btn-bg: #fd926d;
-
-  font-size: 12px;
+  $font-size: 0.75rem;
+  font-size: $font-size;
   
   &__label{
     margin-right: 7px;
@@ -35,7 +35,7 @@
     &::before{
       content: "\f067";
       font-family: FontAwesome;
-      font-size: 12px;
+      font-size: $font-size;
     }
 
     &:hover{
@@ -51,6 +51,10 @@
 
     &__label{
       display: none;
+    }
+
+    &__input{
+      width: 98%;
     }
   }
 }

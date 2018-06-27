@@ -1,13 +1,13 @@
-
 .section-footer-bottom{
   background-color: #000;
-  font-size: 11px;
 }
 
 .footer-bottom{
   $color-text: #8d8d8d;
   $color-bg: #000;
-  $color-link-hover:#dd6b44;
+  $color-link-hover: #dd6b44;
+  $font-size: 0.6875rem;
+  font-size: $font-size;
 
   display: flex;
   justify-content: space-between;
@@ -22,10 +22,12 @@
   }
 
   &__item{
-    padding-right:9px;
-  
+    display: flex;
+    align-items: center;
+    padding: 9px 9px 9px 0px;
     &::after{
       content: "|";
+      color: $color-text;
       margin-left: 9px;
     }
 
@@ -39,6 +41,10 @@
     height: 100%;
     color: $color-text;
     transition: all 0.3s linear;
+    max-width: 120px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   
     &:hover{
       color: $color-link-hover;

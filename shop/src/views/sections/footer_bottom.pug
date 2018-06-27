@@ -1,18 +1,11 @@
 section.section-footer-bottom
   .container
     .footer-bottom
-      nav.footer-bottom__nav
+      .footer-bottom__menu
         ul.footer-bottom__list
-          li.footer-bottom__item
-            a.footer-bottom__link(href="#") Privacy &amp; Cookies
-          li.footer-bottom__item
-            a.footer-bottom__link(href="#") Terms &amp; Conditions
-          li.footer-bottom__item
-            a.footer-bottom__link(href="#") Accessibility
-          li.footer-bottom__item
-            a.footer-bottom__link(href="#") Store Directory
-          li.footer-bottom__item
-            a.footer-bottom__link(href="#") About Us
-      .footer-bottom__copyright.copyright
+          each item in ['Privacy & Cookies', 'Terms & Conditions', 'Accessibility', 'Store Directory', 'About Us']
+            li.footer-bottom__item
+              a.footer-bottom__link(href="#")=item
+      .copyright.footer-bottom__copyright
         p.footer-bottom__text © LookShop.com
         p.footer-bottom__text All Rights Reserved

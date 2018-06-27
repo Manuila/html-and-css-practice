@@ -3,22 +3,23 @@
   $color-btn-bottom: #dd6b44;
   $color-btn-hover: #6d6d6d;
   $color-btn-bg: #fd926d;
+  $font-size: 0.75rem;
 
   outline: none;
   border: none;
   background-color: $color-btn-bg;
   color: $color-btn-text;
-  font-size: 11px;
+  font-size: $font-size;
   text-transform: uppercase;
+  padding: 10px 10px 7px 10px;
   border-bottom: 3px solid $color-btn-bottom;
   transition: all 0.3s linear;
-  padding: 12px 12px 9px 12px;
-
+ 
   &::after{
     content: "\f067";
     font-family: FontAwesome;
-    font-size: 11px;
-    margin-left: 12px;
+    font-size: $font-size;
+    margin-left: 10px;
   }
 
   &:hover{

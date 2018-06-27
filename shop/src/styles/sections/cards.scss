@@ -2,8 +2,11 @@
   background-color: #f7f7f7;
 }
 .cards{
+  $color-bg: #f7f7f7;
+  $color-text: #999999;
+  $font-size: 0.75rem;
   padding: 14px 0px 12px 0px;
-  background-color: #f7f7f7;
+  background-color: $color-bg;
   
   &__list{
     display: flex;
@@ -13,9 +16,9 @@
   }
 
   &-text{
-    font-size: 12px;
-    color:#999999;
-    margin-right:15px;
+    font-size: $font-size;
+    color: $color-text;
+    margin-right: 15px;
   }
 
   &-icon{

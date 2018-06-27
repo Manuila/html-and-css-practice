@@ -12,23 +12,36 @@
   }
 }
 .shopping-bag{
- height: 33px;
- width: inherit;
- border: 1px solid #d6d6d6;
- border-top: none;
- text-transform: uppercase;
- background-color: #fafafa;
- padding: 0 11px;
- display: flex;
- justify-content: space-between;
- align-items: center;
- font-size: 11px;
+  height: 33px;
+  width: inherit;
+  border: 1px solid #d6d6d6;
+  border-top: none;
+  text-transform: uppercase;
+  background-color: #fafafa;
+  padding: 0 11px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+  
+  &__icon{
+    font-size: 16px;
+  }
+  
+  &__text-price::before{
+    content: "|";
+    margin: 0 6px;
+  }
 }
 
-.shopping-bag__icon{
-  font-size: 16px;
-}
-.shopping-bag__text-price::before{
-  content: "|";
-  margin: 0 6px;
+@media screen and (max-width: 640px){
+  .shopping-card{
+    width: 100%;
+    &__select{
+      display: none;
+    }
+  }
+  .shopping-bag{
+    border-top: 1px solid #d6d6d6;
+  }
 }

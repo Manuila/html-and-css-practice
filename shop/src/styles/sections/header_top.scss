@@ -6,7 +6,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 2;
+  z-index: 1000;
 }
 .header-top{
   display: flex;
@@ -17,19 +17,14 @@
 
 @media screen and (max-width: 640px){
   .header-top{
+    $color-bg: #fafafa;
     flex-direction: column;
 
     &__contact{
       padding: 10px;
-      background-color: #fafafa;
+      background-color: $color-bg;
       text-align: center;
       width: 100%;
-    }
-    &__nav__item:last-child{
-      border-right:none;
-    }
-    &__nav__item:first-child{
-      border-left:none;
     }
   }
   .section-header-top{
