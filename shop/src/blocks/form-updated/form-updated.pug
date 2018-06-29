@@ -1,5 +1,9 @@
+include ../label/label
+include ../input/input
+include ../button/button
+
 mixin form-updated()
   form.form-updated(action="#")
-    label.form-updated__label(for="stay-updated") Stay updated
-    input.form-updated__input(type="email" name="email" placeholder="You email address" required)
-    button.form-updated__button(type="submit")
+    +label('Stay updated')(class="form-updated__label" for="stay-updated")
+    +input()(class="form-updated__input" type="email" name="email" placeholder="You email address" required)
+    +button()(class="form-updated__button" type="submit")

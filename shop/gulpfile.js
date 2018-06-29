@@ -101,7 +101,7 @@ gulp.task('copy', gulp.parallel('copy:fonts', 'copy:images'));
 // Watchers
 gulp.task('watch', function() {
   gulp.watch('src/**/*.pug', gulp.series('views'));
-  gulp.watch('src/styles/**/*.scss', gulp.series('sass'));
+  gulp.watch('src/**/*.scss', gulp.series('sass'));
   gulp.watch('src/js/**/*.js', gulp.series('js'));
 });
 

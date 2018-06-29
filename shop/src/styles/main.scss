@@ -8,6 +8,8 @@
 @import 'global/base.scss';
 @import 'global/common.scss';
 @import 'global/sprite.scss';
+@import '../blocks/label/label.scss';
+@import '../blocks/input/input.scss';
 @import '../blocks/page-title/page-title.scss';
 @import '../blocks/title-line/title-line.scss';
 
@@ -31,7 +33,7 @@
 /** FEEDBACK */
 @import '../blocks/feedback/feedback.scss';
 @import '../blocks/form-updated/form-updated.scss';
-@import '../blocks/social/social.scss';
+@import '../blocks/social-icons/social-icons.scss';
 /** GALLERY */
 @import '../blocks/gallery/gallery.scss';
 /** CATALOG_CLOTHES */

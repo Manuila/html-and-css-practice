@@ -1,11 +1,7 @@
 .form-updated{
-  $color-btn-text: #fff;
-  $color-btn-bottom: #dd6b44;
-  $color-btn-hover: #6d6d6d;
-  $color-btn-bg: #fd926d;
   $font-size: 0.75rem;
   font-size: $font-size;
-  
+
   &__label{
     margin-right: 7px;
   }
@@ -14,36 +10,29 @@
     height: 28px;
     width: 157px;
     font-style: italic;
-    outline: none;
-    border: none;
     padding-left: 8px;
     padding-right: 28px;
   }
 
   &__button{
-    outline: none;
-    border: none;
-    color: $color-btn-text;
-    background-color: $color-btn-bg;
-    border-top: 3px solid $color-btn-bg;
-    border-bottom: 3px solid $color-btn-bottom;
+    $color-hover: #6d6d6d;
+    $color-bg: #fd926d;
+    border-top: 3px solid $color-bg;
     transition: all 0.3s;
     height: 28px;
     width: 28px;
     margin-left: -28px;
-
-    &::before{
-      content: "\f067";
-      font-family: FontAwesome;
-      font-size: $font-size;
+    padding:0px;
+  
+    &::after{
+      margin-left: 0px;
     }
-
+  
     &:hover{
-      border-top: 3px solid $color-btn-hover;
-      border-bottom: 3px solid $color-btn-bg;
-      background-color: $color-btn-hover;
+      border-top: 3px solid $color-hover;
     }
   }
+
 }
 
 @media screen and (max-width: 640px){
