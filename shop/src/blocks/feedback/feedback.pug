@@ -1,0 +1,11 @@
+include ../form-updated/form-updated
+include ../social/social
+
+mixin feedback()
+  section.section-feedback
+    .container
+      .feedback
+        .feedback__form
+          +form-updated()
+        .feedback__social
+          +social()     

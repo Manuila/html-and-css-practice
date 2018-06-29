@@ -5,41 +5,45 @@
 @import 'global/fonts';
 @import 'global/vars';
 
-@import 'components/scroll_button.scss';
-
 @import 'global/base.scss';
 @import 'global/common.scss';
-@import 'components/button.scss';
 @import 'global/sprite.scss';
-@import 'components/title_line.scss';
-@import 'components/clothes_item.scss';
+@import '../blocks/page-title/page-title.scss';
+@import '../blocks/title-line/title-line.scss';
+
+/** @import '../blocks/**;/!(_)*.scss' */
+
+@import '../blocks/scroll-top/scroll-top.scss';
+@import '../blocks/button/button.scss';
+@import '../blocks/mobile-menu/mobile-menu.scss';
+@import '../blocks/clothes-item/clothes-item.scss';
 
 /** HEADER_TOP */
-@import 'sections/header_top.scss';
-@import 'components/contact.scss';
-@import 'components/menu_top.scss';
+@import '../blocks/header-top/header-top.scss';
+@import '../blocks/contact/contact.scss';
+@import '../blocks/menu-top/menu-top.scss';
 /** HEADER_BOTTOM */
-@import 'sections/header_bottom.scss';
-@import 'components/nav.scss';
-@import 'components/shopping_card.scss';
+@import '../blocks/header-bottom/header-bottom.scss';
+@import '../blocks/main-menu/main-menu.scss';
+@import '../blocks/shopping-card/shopping-card.scss';
 /** SLIDER_MAIN */
-@import 'sections/slider_main.scss';
+@import '../blocks/main-slider/main-slider.scss';
 /** FEEDBACK */
-@import 'sections/feedback.scss';
-@import 'components/form_updated.scss';
-@import 'components/social.scss';
+@import '../blocks/feedback/feedback.scss';
+@import '../blocks/form-updated/form-updated.scss';
+@import '../blocks/social/social.scss';
 /** GALLERY */
-@import 'sections/gallery.scss';
+@import '../blocks/gallery/gallery.scss';
 /** CATALOG_CLOTHES */
-@import 'sections/catalog_clothes.scss';
+@import '../blocks/catalog-clothes/catalog-clothes.scss';
 /** CLOTHES_CLEARANCE */
-@import 'sections/clothes_clearance.scss';
+@import '../blocks/clothes-clearance/clothes-clearance.scss';
 /** BRANDS */
-@import 'sections/brands.scss';
+@import '../blocks/brands/brands.scss';
 /** ABOUT */
-@import 'sections/about.scss';
+@import '../blocks/about/about.scss';
 /** CARDS */
-@import 'sections/cards.scss';
+@import '../blocks/cards/cards.scss';
 /** FOOTER */
-@import 'sections/footer_top.scss';
-@import 'sections/footer_bottom.scss';
+@import '../blocks/footer-top/footer-top.scss';
+@import '../blocks/footer-bottom/footer-bottom.scss';

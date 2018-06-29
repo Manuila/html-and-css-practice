@@ -1,0 +1,95 @@
+.main-slider{
+  $color-bg: #ccc;
+  $color-bg-btn: #fefefd;
+  $color-btn-icon: #cbcbca;
+  $color-bg-btn-hover: #f9926d;
+  $color-dots: #867a76;
+  $color-dots-hover: #fd926d;
+  $color-dots-active: #fd926d;
+
+  position: relative;
+  margin-top:15px;
+
+  &__item{
+    background-color: #ccc;
+    height: 440px;
+    width: 100%;
+  }
+
+  &__img{
+    height: 100%; 
+    width: 100%; 
+    object-fit: cover;
+  }
+
+  .slick-prev,
+  .slick-next{
+    position: absolute;
+    top: 161.5px;
+    z-index: 1;
+    font-size: 0px;
+    border: none;
+    outline: none;
+    height: 117px;
+    background-color: $color-bg-btn;
+    transition: background-color 0.3s;
+    padding: 7px;
+  }
+
+  .slick-next{
+    left:auto;
+    right: 0;
+  }
+
+  .slick-prev::before{
+    content: "\f053";
+    font-family: FontAwesome;
+    font-size: 18px;
+    color: $color-btn-icon;
+  }
+
+  .slick-next::before{
+    content: "\f054";
+    font-family: FontAwesome;
+    font-size: 18px;
+    color: $color-btn-icon;
+  }
+
+  .slick-prev:hover,
+  .slick-next:hover{
+    background-color: $color-bg-btn-hover;
+  }
+
+  .slick-dots{
+    margin-top: 17px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .slick-dots li{
+    display: inline-block;
+  }
+
+  .slick-dots li button{
+    font-size: 0px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: $color-dots;
+    transition: color 0.3s;
+  }
+
+  .slick-dots li button:hover{
+    color: $color-dots-hover;
+  }
+
+  .slick-dots li button:before {
+    font-family: FontAwesome;
+    content: "\f111";
+    font-size: 0.6875rem;
+  }
+
+  .slick-dots li.slick-active button:before {
+    color: $color-dots-active;
+  }
+}

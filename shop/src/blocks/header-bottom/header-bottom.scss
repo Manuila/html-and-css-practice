@@ -1,0 +1,53 @@
+.section-header-bottom{
+  margin-top: 55px;
+}
+
+.header-bottom{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  &__logo {
+    flex: 1 1 auto;
+  }
+  &__shopping{
+    margin-left: 20px;
+  }
+}
+.logo__link{
+  display: inline-block;
+}
+
+@media screen and (max-width:768px) {
+  .header-bottom{
+
+    &__logo{
+      order: 1;
+    }
+
+    &__menu{
+      order: 3;
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    &__shopping{
+      order: 2;
+    }
+  }
+}
+
+@media screen and (max-width:640px) {
+  .section-header-bottom{
+    margin-top: 80px;
+  }
+  
+  .header-bottom{
+    flex-direction: column;
+    
+    &__shopping{
+      margin-left: 0px;
+      width: 100%;
+    }
+  }
+}

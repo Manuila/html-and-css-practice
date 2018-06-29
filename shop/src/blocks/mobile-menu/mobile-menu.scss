@@ -1,0 +1,27 @@
+.mobile-menu {
+  display: none;
+  color: #fff;
+  text-transform: uppercase;
+
+  &__title{
+    padding: 15px;
+  }
+
+  &__trigger{
+    padding: 15px;
+    &::after{
+      content: "\f0c9";
+      font-family: FontAwesome;
+      font-size: 1.5625rem;
+      color: #fff;
+    }
+  }
+}
+@media screen and (max-width:768px){
+  .mobile-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9926d;
+  }
+}

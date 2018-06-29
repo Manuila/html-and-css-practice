@@ -1,0 +1,27 @@
+.title-line{
+  text-align: center;
+  color: #414141;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;
+  &::after,
+  &::before{
+    content: '';
+    display: inline-block;
+    background-color: #d8d8d8;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    border: solid #ffffff;
+    border-width: 0 15px
+  }
+  &::after{
+    margin-right: -100%;
+  }
+  &::before{
+    margin-left: -100%;
+  }
+}

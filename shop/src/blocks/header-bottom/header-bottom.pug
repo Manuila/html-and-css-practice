@@ -1,0 +1,14 @@
+include ../main-menu/main-menu
+include ../logo/logo
+include ../shopping-card/shopping-card
+
+mixin header-bottom() 
+  .container
+    section.section-header-bottom
+      .header-bottom
+        .header-bottom__logo
+          +logo()
+        .header-bottom__menu
+          +main-menu()
+        .header-bottom__shopping
+          +shopping-card()

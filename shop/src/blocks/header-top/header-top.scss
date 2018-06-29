@@ -1,0 +1,36 @@
+.section-header-top{
+  $color-bg: #000;
+
+  background-color: $color-bg;
+  text-transform: uppercase;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.header-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.6875rem;
+  //width: 100%;
+}
+
+@media screen and (max-width: 640px){
+  .header-top{
+    $color-bg: #fafafa;
+    flex-direction: column;
+
+    &__contact{
+      padding: 10px;
+      background-color: $color-bg;
+      text-align: center;
+      width: 100%;
+    }
+  }
+  .section-header-top{
+    .container{
+      padding: 0px;
+    }
+  }
+}

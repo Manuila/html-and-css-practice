@@ -79,9 +79,10 @@ gulp.task('js', function() {
   return gulp.src([
     'node_modules/jquery/dist/jquery.js',
     'node_modules/slick-carousel/slick/slick.min.js',
-    'src/js/slider.js',
-    'src/js/mainMenu.js',
-    'src/js/scrollButton.js'
+    'src/blocks/main-slider/main-slider.js',
+    'src/blocks/catalog-clothes/catalog-clothes.js',
+    'src/blocks/main-menu/main-menu.js',
+    'src/blocks/scroll-top/scroll-top.js'
   ])
   .pipe(sourcemaps.init())
   .pipe(include({
@@ -99,7 +100,7 @@ gulp.task('copy', gulp.parallel('copy:fonts', 'copy:images'));
 
 // Watchers
 gulp.task('watch', function() {
-  gulp.watch('src/views/**/*.pug', gulp.series('views'));
+  gulp.watch('src/**/*.pug', gulp.series('views'));
   gulp.watch('src/styles/**/*.scss', gulp.series('sass'));
   gulp.watch('src/js/**/*.js', gulp.series('js'));
 });
