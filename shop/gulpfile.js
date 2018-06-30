@@ -80,7 +80,7 @@ gulp.task('js', function() {
     'node_modules/jquery/dist/jquery.js',
     'node_modules/slick-carousel/slick/slick.min.js',
     'src/blocks/main-slider/main-slider.js',
-    'src/blocks/catalog-clothes/catalog-clothes.js',
+    'src/blocks/clothing-catalog/clothing-catalog.js',
     'src/blocks/main-menu/main-menu.js',
     'src/blocks/scroll-top/scroll-top.js'
   ])

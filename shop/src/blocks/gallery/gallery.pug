@@ -2,17 +2,17 @@ mixin gallery()
   section.section-gallery
     .container
       .gallery
-        .gallery__item.gallery__column
+        .gallery__item.gallery__item_vertical
           a.gallery__link(href="#")
             img.gallery__img(src="images/gallery_1.png")
-        .gallery__item.gallery__column
-          .gallery__item.gallery__row
+        .gallery__item.gallery__item_vertical  
+          .gallery__item.gallery__item_horizontal
             a.gallery__link(href="#")
               img.gallery__img(src="images/gallery_2.png")
-          .gallery__item.gallery__row
-            .gallery__item.gallery__column
+          .gallery__item.gallery__item_horizontal
+            .gallery__item.gallery__item_vertical
               a.gallery__link(href="#")
                 img.gallery__img(src="images/gallery_3.png")
-            .gallery__item.gallery__column
+            .gallery__item.gallery__item_vertical
               a.gallery__link(href="#")
                 img.gallery__img(src="images/gallery_4.png")

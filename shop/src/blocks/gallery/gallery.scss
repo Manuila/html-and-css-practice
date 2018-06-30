@@ -11,17 +11,17 @@
   &__item{
     display: flex;
     flex: 1;
-    background-color:  #ccc; 
+    background-color:  #ccc;
+
+    &_vertical{
+      flex-direction: column;
+    }
+  
+    &_horizontal{
+      flex-direction: row;
+    }  
   }
 
-  &__column{
-    flex-direction: column;
-  }
-
-  &__row{
-    flex-direction: row;
-  }
- 
   &__link{
     display: inline-block;
     width: 100%;

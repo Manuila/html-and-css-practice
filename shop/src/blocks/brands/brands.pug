@@ -1,7 +1,9 @@
+include ../title/title
+
 mixin brands() 
   section.section-brands
     .brands
-      h3.brands__title.title-line favourite brands
+      +title("favourite brands").title_line.brands__title
       .container
         .brands__list
           .brands__item

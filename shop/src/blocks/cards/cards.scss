@@ -7,7 +7,16 @@
   $font-size: 0.75rem;
   padding: 14px 0px 12px 0px;
   background-color: $color-bg;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
+  &__text{
+    font-size: $font-size;
+    color: $color-text;
+    margin-right: 15px;
+  }
+
   &__list{
     display: flex;
     justify-content: center;
@@ -15,58 +24,52 @@
     flex-wrap: wrap;
   }
 
-  &-text{
-    font-size: $font-size;
-    color: $color-text;
-    margin-right: 15px;
-  }
-
-  &-icon{
+  &__item{
     height: 25px;
     width: 36px;
     margin: 5px;
-
-    &-1{
+    
+    &_icon-1{
       @include sprite($card-1);
     }
 
-    &-2{
+    &_icon-2{
       @include sprite($card-2);
     }
 
-    &-3{
+    &_icon-3{
       @include sprite($card-3);
     }
 
-    &-4{
+    &_icon-4{
       @include sprite($card-4);
     }
 
-    &-5{
+    &_icon-5{
       @include sprite($card-5);
     }
 
-    &-6{
+    &_icon-6{
       @include sprite($card-6);
     }
 
-    &-7{
+    &_icon-7{
       @include sprite($card-7);
     }
 
-    &-8{
+    &_icon-8{
       @include sprite($card-8);
     }
 
-    &-9{
+    &_icon-9{
       @include sprite($card-9);
     }
 
-    &-10{
+    &_icon-10{
       @include sprite($card-10);
     }
 
-    &-11{
+    &_icon-11{
       @include sprite($card-11);
     }
   }

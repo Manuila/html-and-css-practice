@@ -1,9 +1,11 @@
 include ../clothes-item/clothes-item
+include ../title/title
+
 mixin clothes-clearance()
   section.section-clothes-clearance
     .container
       .clothes-clearance
-        .clothes-clearance__title.title-line
+        +title().title_line.clothes-clearance__title
           img.clothes-clearance__img(src="images/clearence.png")
         .clothes-clearance__list
           +clothes-item("images/clothes1.jpg",'Mimosa lace dress', '$76.95', true)

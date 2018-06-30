@@ -2,20 +2,22 @@
   $color-icon: #6d6d6d;
   $color-icon-hover: #fd926d;
   $color-bg-icon-hover: #6d6d6d;
-  
+  display: flex;
+  align-items: center;
+
+  &__text{
+    font-size: 12px;
+    margin-right: 14px;
+  }
+
   &__list{
     display: flex;
     align-items: center;
   }
+
   &__item{
     position: relative;
     font-size: 24px;
-    
-    &_text{
-      font-size: 12px;
-      margin-right: 14px;
-    }
-
     &:nth-child(even){
       background-color: #f7f7f7;
     }
