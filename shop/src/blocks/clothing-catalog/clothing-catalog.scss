@@ -2,43 +2,35 @@
   margin-top: 50px;
 }
 
-
 .clothing-catalog-nav{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.clothing-catalog-nav__menu{
-      
-     
-     
-     
-}
-  
-.clothing-catalog-nav__list{
-        display: flex;
-      }
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
 
-  .clothing-catalog-nav__item{
-        font-size:15px;
-        text-transform: uppercase;
-      }
-.clothing-catalog-nav__link{
-  $color-link: #555;
-        color: $color-link;
-        display: inline-block;
-        padding:15px 19px;
-        transition: all 0.3s linear;
-      }
-  .clothing-catalog-nav__link:hover{
-    $color-link-text-hover: #fff;
-    $color-bg-link-hover: #fd926d;
-        color: $color-link-text-hover;
-        background-color: $color-bg-link-hover;
-      }
-    
-  
+  &__list{
+    display: flex;
+  }
 
+  &__item{
+    font-size:15px;
+    text-transform: uppercase;
+  }
+
+  &__link{
+    $color-link: #555;
+    color: $color-link;
+    display: inline-block;
+    padding:15px 19px;
+    transition: all 0.3s linear;
+
+    &:hover{
+      $color-link-text-hover: #fff;
+      $color-bg-link-hover: #fd926d;
+      color: $color-link-text-hover;
+      background-color: $color-bg-link-hover;
+    }
+  }
+}
 
 .slider-clothes{
   $color-link: #555;
