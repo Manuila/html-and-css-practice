@@ -91,7 +91,7 @@ gulp.task('js', function() {
   }))
   .pipe(concat('main.js'))
   .pipe(uglify())
-  .pipe(sourcemaps.write())
+  //.pipe(sourcemaps.write())
   .pipe(gulp.dest('dist/js'))
 });
 

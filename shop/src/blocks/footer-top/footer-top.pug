@@ -32,12 +32,36 @@ mixin footer-top()
                     a.footer-top__link(href="#")=item
         .footer-top__column
           h3.footer-top__title Social
-          ul.footer-top__list.footer-social
-            - var items = ['twitter', 'pinterest', 'facebook', 'google-plus', 'tumblr', 'vimeo']
-                each item in items
-                  li.footer-top__item.footer-social__icon
-                    a.footer-top__link.footer-social__link(href="#")
-                      span.fa-stack.fa-lg
-                        i.footer-social__icon-circle.fa.fa-circle.fa-stack-2x
-                        i(class='footer-social__icon-social fa fa-'+item+' fa-stack-1x')
-        .footer-top__column.secure
+          .footer-top-social-icons
+            ul.footer-top-social-icons__list
+              li.footer-top-social-icons__item_tw
+                a.footer-top-social-icons__link(href="#")
+                  span.fa-stack.fa-lg
+                    i.footer-top-social-icons__icon_circle.fa.fa-circle.fa-stack-2x
+                    i.footer-top-social-icons__icon.fa.fa-twitter.fa-stack-1x
+              li.footer-top-social-icons__item_pr
+                a.footer-top-social-icons__link(href="#")
+                  span.fa-stack.fa-lg
+                    i.footer-top-social-icons__icon_circle.fa.fa-circle.fa-stack-2x
+                    i.footer-top-social-icons__icon.fa.fa-pinterest.fa-stack-1x
+              li.footer-top-social-icons__item_fb
+                a.footer-top-social-icons__link(href="#")
+                  span.fa-stack.fa-lg
+                    i.footer-top-social-icons__icon_circle.fa.fa-circle.fa-stack-2x
+                    i.footer-top-social-icons__icon.fa.fa-facebook.fa-stack-1x
+              li.footer-top-social-icons__item_gp
+                a.footer-top-social-icons__link(href="#")
+                  span.fa-stack.fa-lg
+                    i.footer-top-social-icons__icon_circle.fa.fa-circle.fa-stack-2x
+                    i.footer-top-social-icons__icon.fa.fa-google-plus.fa-stack-1x
+              li.footer-top-social-icons__item_tr
+                a.footer-top-social-icons__link(href="#")
+                  span.fa-stack.fa-lg
+                    i.footer-top-social-icons__icon_circle.fa.fa-circle.fa-stack-2x
+                    i.footer-top-social-icons__icon.fa.fa-tumblr.fa-stack-1x
+              li.footer-top-social-icons__item_vm
+                a.footer-top-social-icons__link(href="#")
+                  span.fa-stack.fa-lg
+                    i.footer-top-social-icons__icon_circle.fa.fa-circle.fa-stack-2x
+                    i.footer-top-social-icons__icon.fa.fa-vimeo.fa-stack-1x
+        .footer-top__column.footer-top__column_secure

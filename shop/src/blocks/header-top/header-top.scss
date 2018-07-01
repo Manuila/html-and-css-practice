@@ -1,19 +1,17 @@
 .section-header-top{
   $color-bg: #000;
-
   background-color: $color-bg;
-  text-transform: uppercase;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
 }
 .header-top{
+  text-transform: uppercase;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 0.6875rem;
-  //width: 100%;
 }
 
 @media screen and (max-width: 640px){
