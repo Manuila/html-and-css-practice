@@ -70,7 +70,7 @@ gulp.task('copy:fonts', function() {
 
 // Copy images
 gulp.task('copy:images', function() {
-  return gulp.src('./src/images/**/*.*')
+  return gulp.src('./src/images/*.*')
     .pipe(gulp.dest('dist/images'));
 });
 
