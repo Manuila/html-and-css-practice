@@ -1,16 +1,15 @@
 .section-feedback{
-  background-color: #ededed;
+  background-color: $feedback-color-bg;
   margin-top: 20px;
 }
 
 .feedback{
-  $font-size: 0.75rem;
-  $color-text: #6d6d6d;
+ 
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: $color-text;
-  font-size: $font-size;
+  color: $feedback-color-text;
+  font-size: $feedback-font-size;
 }
 
 @media screen and (max-width: 640px){

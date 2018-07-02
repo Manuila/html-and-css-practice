@@ -1,6 +1,5 @@
 .form-updated{
-  $font-size: 0.75rem;
-  font-size: $font-size;
+  font-size: $form-updated-font-size;
 
   &__label{
     margin-right: 7px;
@@ -15,9 +14,8 @@
   }
 
   &__button{
-    $color-hover: #6d6d6d;
-    $color-bg: #fd926d;
-    border-top: 3px solid $color-bg;
+    $color-bg: $form-updated-btn-color-bg;
+    border-top: 3px solid $form-updated-btn-color-bg;
     transition: all 0.3s;
     height: 28px;
     width: 28px;
@@ -29,7 +27,7 @@
     }
   
     &:hover{
-      border-top: 3px solid $color-hover;
+      border-top: 3px solid $form-updated-btn-color-bt-hover;
     }
   }
 

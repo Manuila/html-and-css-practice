@@ -1,12 +1,9 @@
 .social-icons{
-  $color-icon: #6d6d6d;
-  $color-icon-hover: #fd926d;
-  $color-bg-icon-hover: #6d6d6d;
   display: flex;
   align-items: center;
 
   &__text{
-    font-size: 12px;
+    font-size: $social-icons-text-font-size;
     margin-right: 14px;
   }
 
@@ -17,9 +14,9 @@
 
   &__item{
     position: relative;
-    font-size: 24px;
+    font-size: $social-icons-item-font-size;
     &:nth-child(even){
-      background-color: #f7f7f7;
+      background-color: $social-icons-item-color-bg;
     }
   }
   
@@ -29,12 +26,12 @@
     width: 55px;
     text-align: center;
     padding: 14px;
-    color: $color-icon;
+    color: $social-icons-icon-color;
     transition: all 0.3s linear;
 
     &:hover{
-      color: $color-icon-hover;
-      background-color: $color-bg-icon-hover;
+      color: $social-icons-icon-color-hover;
+      background-color: $social-icons-icon-color-bg-hover;
     }
   }
 }

@@ -1,29 +1,23 @@
 .button {
-  $color-btn-text: #fff;
-  $color-btn-bottom: #dd6b44;
-  $color-btn-hover: #6d6d6d;
-  $color-btn-bg: #fd926d;
-  $font-size: 0.75rem;
-
   outline: none;
   border: none;
-  background-color: $color-btn-bg;
-  color: $color-btn-text;
-  font-size: $font-size;
+  background-color: $button-color-bg;
+  color: $button-color-text;
+  font-size: $button-font-size;
   text-transform: uppercase;
   padding: 10px 10px 7px 10px;
-  border-bottom: 3px solid $color-btn-bottom;
+  border-bottom: 3px solid $button-color-bottom;
   transition: all 0.3s linear;
  
   &::after{
     content: "\f067";
     font-family: FontAwesome;
-    font-size: $font-size;
+    font-size: $button-font-size;
     margin-left: 10px;
   }
 
   &:hover{
-    border-bottom: 3px solid $color-btn-bg;
-    background-color: $color-btn-hover;
+    border-bottom: 3px solid $button-color-bg;
+    background-color: $button-color-hover;
   }
 }

@@ -1,8 +1,6 @@
-.page-title{
-  $color-title: #414141;
-  $font-size-title: 1.5rem;
-  color: $color-title;
-  font-size: $font-size-title;
+.page-title{ 
+  color: $page-title-color-text;
+  font-size: $page-title-font-size;
   font-weight: normal;
   margin: 10px 0px;   
 }

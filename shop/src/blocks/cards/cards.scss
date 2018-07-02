@@ -2,18 +2,15 @@
   background-color: #f7f7f7;
 }
 .cards{
-  $color-bg: #f7f7f7;
-  $color-text: #999999;
-  $font-size: 0.75rem;
   padding: 14px 0px 12px 0px;
-  background-color: $color-bg;
+  background-color: $cards-color-bg;
   display: flex;
   justify-content: center;
   align-items: center;
   
   &__text{
-    font-size: $font-size;
-    color: $color-text;
+    font-size: $cards-font-size;
+    color: $cards-color-text;
     margin-right: 15px;
   }
 

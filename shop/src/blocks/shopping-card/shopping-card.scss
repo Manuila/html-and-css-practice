@@ -1,6 +1,6 @@
 .shopping-card{
-  color: #b3b3b3;
-  font-size: 0.75rem;
+  color: $shopping-card-color-text;
+  font-size: $shopping-card-font-size;
   width: 214px;
   
   &__select{

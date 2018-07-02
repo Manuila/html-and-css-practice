@@ -1,6 +1,5 @@
 .section-header-top{
-  $color-bg: #000;
-  background-color: $color-bg;
+  background-color: $header-top-color-bg;
   position: fixed;
   top: 0;
   width: 100%;
@@ -16,12 +15,11 @@
 
 @media screen and (max-width: 640px){
   .header-top{
-    $color-bg: #fafafa;
     flex-direction: column;
 
     &__contact{
       padding: 10px;
-      background-color: $color-bg;
+      background-color: $header-top-color-bg-hover-mw-640;
       text-align: center;
       width: 100%;
     }

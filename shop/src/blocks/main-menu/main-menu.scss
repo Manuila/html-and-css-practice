@@ -1,19 +1,15 @@
 .main-menu {
-  $color-link:#000;
-  $font-size: 1rem;
-
   text-transform: lowercase;
-  background-color:#fff;
-  
+    
   &__list{
     display: flex;
   }
   
   &__link {
-    color: $color-link;
+    color: $main-menu-link-color;
     display: block;
     padding: 15px;
-    font-size: $font-size;
+    font-size: $main-menu-font-size;
     transition: all 0.3s linear;
 
     max-width: 120px;
@@ -22,8 +18,8 @@
     text-overflow: ellipsis;
 
     &:hover {
-      color: #fff;
-      background: #f9926d;
+      color: $main-menu-link-color-hover;
+      background: $main-menu-link-color-bg-hover;
     }
     
     &_parent::after{
@@ -40,7 +36,7 @@
     width: 100%;
     &__item {
       display: block;
-      border-top: 1px #d6d6d6 solid;    
+      border-top: $main-menu-item-color-bt-mw-768 1px #d6d6d6 solid;    
     }
 
     &__list {

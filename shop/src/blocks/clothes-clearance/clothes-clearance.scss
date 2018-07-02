@@ -2,18 +2,16 @@
   margin-top: 20px;
 }
 .clothes-clearance{
-  $color-bg: #fff;
 
   &__title{
     text-align: center;
-    
   }
 
   &__list{
     display: flex;
     justify-content: space-between;
     margin: -10px -15px;
-    background-color: $color-bg;
+    background-color: $clothes-clearance-color-bg;
   }
 }
 @media screen and (max-width: 640px){

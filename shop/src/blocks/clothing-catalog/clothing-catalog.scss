@@ -12,34 +12,25 @@
   }
 
   &__item{
-    font-size:15px;
+    font-size: $clothing-catalog-nav-item-font-size;
     text-transform: uppercase;
   }
 
   &__link{
-    $color-link: #555;
-    color: $color-link;
+    color: $clothing-catalog-nav-link-color;
     display: inline-block;
     padding:15px 19px;
     transition: all 0.3s linear;
 
     &:hover{
-      $color-link-text-hover: #fff;
-      $color-bg-link-hover: #fd926d;
-      color: $color-link-text-hover;
-      background-color: $color-bg-link-hover;
+      color: $clothing-catalog-nav-link-color-text-hover;
+      background-color: $clothing-catalog-nav-link-color-bg-hover;
     }
   }
 }
 
 .slider-clothes{
-  $color-link: #555;
-  $color-btn-bg: #f2f2f2;
-  $color-btn-hover: #fd926d;
-  $color-btn-text-hover: #fff;
-  $color-bg: #fd926d;
-
-  background-color: $color-bg;
+  background-color: $slider-clothes-color-bg;
   
   &-buttons__list{
     display: flex;
@@ -47,14 +38,14 @@
 
   &-button-prev,
   &-button-next{
-    color: $color-link;
-    background-color: $color-btn-bg;
+    color: $slider-clothes-link-color;
+    background-color: $slider-clothes-btn-color-bg;
     cursor: pointer;
     padding:0 15px;
     transition: all 0.3s linear;
     &:hover{
-      background-color: $color-btn-hover;
-      color: $color-btn-text-hover;
+      background-color: $slider-clothes-btn-color-bg-hover;
+      color: $slider-clothes-btn-color-text-hover;
     }
   }
 }

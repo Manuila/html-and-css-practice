@@ -1,15 +1,11 @@
-.about{
-  
-  $color-text: #999;
-  $font-size-text: 0.875rem;
-  
+.about{ 
   text-align: center;
   padding: 15px 0px 21px 0px;
   
   &__text{
     margin: 5px 0px;;
-    color: $color-text;
-    font-size: $font-size-text;
+    color: $about-color-text;
+    font-size: $about-font-size;
     line-height: 1.3;
   }
   

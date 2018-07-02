@@ -1,19 +1,12 @@
 .section-footer-top{
-  background-color : #ededed;
+  background-color : $footer-top-color-bg;
 }
 
 .footer-top{
-  $color-bg: #ededed;
-  $color-title: #544f4d;
-  $color-link: #8b8887;
-  $color-link-hover:#dd6b44;
-  $font-size-title: 1rem;
-  $font-size-link: 0.75rem;
-
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: $color-bg;
+  background-color: $footer-top-color-bg;
   padding: 10px 0px 20px 0px;
   
   &__column{
@@ -27,16 +20,16 @@
   }
 }
   &__title{
-    color: $color-title;
-    font-size: $font-size-title;
+    color: $footer-top-title-color;
+    font-size: $footer-top-title-font-size;
     font-weight: bold;
     margin-top: 9px;
     margin-bottom: 10px;
   }
 
   &__link{
-    color: $color-link;
-    font-size: $font-size-link;
+    color: $footer-top-link-color;
+    font-size: $footer-top-link-font-size;
     transition: all 0.3s linear;
     display: inline-block;
     max-width: 160px;
@@ -45,18 +38,12 @@
     text-overflow: ellipsis;
     
     &:hover{
-      color: $color-link-hover;
+      color: $footer-top-link-color-hover;
     }
   }
 }
 
 .footer-top-social-icons{
-  $color-bg-icon: #4c4c4b;
-  $color-bg-icon-hover: #dd6b44;
-  $color-icon: #fff;
-  $color-icon-hover: #4c4c4b;
-  $font-size-link: 1rem;
-
   &__list{
     display: flex;
     flex-wrap: wrap;
@@ -64,16 +51,16 @@
   }
 
   &__link{
-    font-size: $font-size-link;
+    font-size: $footer-top-social-icons-link-font-size;
   }
 
   &__icon_circle{
-    color: $color-bg-icon;
+    color: $footer-top-social-icons-icon-color-bg;
     transition: all 0.3s linear;
   }
 
   &__icon{
-    color: $color-icon;
+    color: $footer-top-social-icons-icon-color;
     transition: all 0.3s linear;
   }
 

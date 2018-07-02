@@ -1,6 +1,6 @@
 .mobile-menu {
   display: none;
-  color: #fff;
+  color: $mobile-menu-color-text;
   text-transform: uppercase;
 
   &__title{
@@ -13,7 +13,7 @@
       content: "\f0c9";
       font-family: FontAwesome;
       font-size: 1.5625rem;
-      color: #fff;
+      color: $mobile-menu-color-text;
     }
   }
 }
@@ -22,6 +22,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f9926d;
+    background-color: $mobile-menu-color-bg;
   }
 }

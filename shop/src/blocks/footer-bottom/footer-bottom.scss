@@ -1,18 +1,13 @@
 .section-footer-bottom{
-  background-color: #000;
+  background-color: $footer-bottom-color-bg;
 }
 
 .footer-bottom{
-  $color-text: #8d8d8d;
-  $color-bg: #000;
-  $color-link-hover: #dd6b44;
-  $font-size: 0.6875rem;
-  font-size: $font-size;
-
+  font-size: $footer-bottom-font-size;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: $color-bg;
+  background-color: $footer-bottom-color-bg;
   
   &__list{
     display: flex;
@@ -27,7 +22,7 @@
     padding: 9px 9px 9px 0px;
     &::after{
       content: "|";
-      color: $color-text;
+      color: $footer-bottom-color-text;
       margin-left: 9px;
     }
 
@@ -39,7 +34,7 @@
   &__link{
     display: inline-block;
     height: 100%;
-    color: $color-text;
+    color: $footer-bottom-color-text;
     transition: all 0.3s linear;
     max-width: 120px;
     white-space: nowrap;
@@ -47,12 +42,12 @@
     text-overflow: ellipsis;
   
     &:hover{
-      color: $color-link-hover;
+      color: $footer-bottom-link-color-hover;
     }
   }
 
   &__copyright{
-    color: $color-text;
+    color: $footer-bottom-color-text;
     text-align: right;
   }
 }

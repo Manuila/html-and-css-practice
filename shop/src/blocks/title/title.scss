@@ -1,8 +1,8 @@
 .title{
   text-align: center;
-  color: #414141;
+  color: $title-color-text;
   text-transform: uppercase;
-  font-size: 0.9375rem;
+  font-size: $title-color-font-size;
   font-weight: bold;
 }
 @import '_line/title_line.scss';
